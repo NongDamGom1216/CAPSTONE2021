@@ -31,7 +31,7 @@ class Typography extends React.Component {
         <Row className="py-3 align-items-center">
           
           <Col sm="9">
-            <h4 className="mb-0">회사 소개1<br></br>
+            <h4 className="mb-0">회사 소개 테스트입니다<br></br>
             회사 소개1<br></br>
             회사 소개1</h4>
           </Col>
