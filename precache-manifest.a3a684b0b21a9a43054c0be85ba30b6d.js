@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a2d0a03d6009637396e4e0bb0cb55e7",
+    "revision": "c2e92fa19e353da67a7dbf9958b37996",
     "url": "/CAPSTONE2021/index.html"
   },
   {
-    "revision": "85d58f705744cc67f7d7",
-    "url": "/CAPSTONE2021/static/css/main.a9e0eb17.chunk.css"
+    "revision": "ba31c4e375d0cd6f58cf",
+    "url": "/CAPSTONE2021/static/css/main.03c46523.chunk.css"
   },
   {
-    "revision": "7c5462f46dc84e7c2d11",
-    "url": "/CAPSTONE2021/static/js/2.28c0bd71.chunk.js"
+    "revision": "4d8f55a791b36df2ba3b",
+    "url": "/CAPSTONE2021/static/js/2.e6fa75c7.chunk.js"
   },
   {
     "revision": "6904dfd75471649aa9b5801f3774a8c5",
-    "url": "/CAPSTONE2021/static/js/2.28c0bd71.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/2.e6fa75c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85d58f705744cc67f7d7",
-    "url": "/CAPSTONE2021/static/js/main.beb3317b.chunk.js"
+    "revision": "ba31c4e375d0cd6f58cf",
+    "url": "/CAPSTONE2021/static/js/main.57b5c173.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/CAPSTONE2021/static/js/main.beb3317b.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/main.57b5c173.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9001a9b6490bec12a3ea",
-    "url": "/CAPSTONE2021/static/js/runtime-main.69beb38a.js"
+    "revision": "5422e25e33cce68a0c63",
+    "url": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js"
   },
   {
     "revision": "f38ddea9dedadea03c5d43c596dac13f",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/CAPSTONE2021/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
+    "url": "/CAPSTONE2021/static/media/fontawesome-webfont.acf3dcb7.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -52,12 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "4ffd4fe7945af123788bf5888296c696",
-    "url": "/CAPSTONE2021/static/media/github.4ffd4fe7.svg"
+    "revision": "2e2571256140872fb7e4f246ea786669",
+    "url": "/CAPSTONE2021/static/media/github.2e257125.svg"
   },
   {
-    "revision": "87be59a1f7061fc6021876aad6fee028",
-    "url": "/CAPSTONE2021/static/media/google.87be59a1.svg"
+    "revision": "08ea438ed3b14e63dd54516d3768e3d3",
+    "url": "/CAPSTONE2021/static/media/google.08ea438e.svg"
   },
   {
     "revision": "594b1ee1d95ada356eaad078e9217932",
@@ -84,16 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/landing.0ec26478.jpg"
   },
   {
-    "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
-    "url": "/CAPSTONE2021/static/media/nucleo-icons.0b8a30b1.svg"
-  },
-  {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
     "url": "/CAPSTONE2021/static/media/nucleo-icons.2569aaea.woff"
   },
   {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "/CAPSTONE2021/static/media/nucleo-icons.42643978.woff2"
+  },
+  {
+    "revision": "46abbc4a676739dbd61f8a305cb63fd8",
+    "url": "/CAPSTONE2021/static/media/nucleo-icons.46abbc4a.svg"
   },
   {
     "revision": "c1733565b32b585676302d4233c39da8",

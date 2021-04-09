@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/CAPSTONE2021/static/css/main.a9e0eb17.chunk.css",
-    "main.js": "/CAPSTONE2021/static/js/main.beb3317b.chunk.js",
-    "main.js.map": "/CAPSTONE2021/static/js/main.beb3317b.chunk.js.map",
-    "runtime-main.js": "/CAPSTONE2021/static/js/runtime-main.69beb38a.js",
-    "runtime-main.js.map": "/CAPSTONE2021/static/js/runtime-main.69beb38a.js.map",
-    "static/js/2.28c0bd71.chunk.js": "/CAPSTONE2021/static/js/2.28c0bd71.chunk.js",
-    "static/js/2.28c0bd71.chunk.js.map": "/CAPSTONE2021/static/js/2.28c0bd71.chunk.js.map",
+    "main.css": "/CAPSTONE2021/static/css/main.03c46523.chunk.css",
+    "main.js": "/CAPSTONE2021/static/js/main.57b5c173.chunk.js",
+    "main.js.map": "/CAPSTONE2021/static/js/main.57b5c173.chunk.js.map",
+    "runtime-main.js": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js",
+    "runtime-main.js.map": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js.map",
+    "static/js/2.e6fa75c7.chunk.js": "/CAPSTONE2021/static/js/2.e6fa75c7.chunk.js",
+    "static/js/2.e6fa75c7.chunk.js.map": "/CAPSTONE2021/static/js/2.e6fa75c7.chunk.js.map",
     "index.html": "/CAPSTONE2021/index.html",
-    "precache-manifest.5b2d2e60574917402653af987f229c95.js": "/CAPSTONE2021/precache-manifest.5b2d2e60574917402653af987f229c95.js",
+    "precache-manifest.a3a684b0b21a9a43054c0be85ba30b6d.js": "/CAPSTONE2021/precache-manifest.a3a684b0b21a9a43054c0be85ba30b6d.js",
     "service-worker.js": "/CAPSTONE2021/service-worker.js",
-    "static/css/main.a9e0eb17.chunk.css.map": "/CAPSTONE2021/static/css/main.a9e0eb17.chunk.css.map",
-    "static/js/2.28c0bd71.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.28c0bd71.chunk.js.LICENSE.txt",
-    "static/js/main.beb3317b.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/main.beb3317b.chunk.js.LICENSE.txt",
+    "static/css/main.03c46523.chunk.css.map": "/CAPSTONE2021/static/css/main.03c46523.chunk.css.map",
+    "static/js/2.e6fa75c7.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.e6fa75c7.chunk.js.LICENSE.txt",
+    "static/js/main.57b5c173.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/main.57b5c173.chunk.js.LICENSE.txt",
     "static/media/argon-react.png": "/CAPSTONE2021/static/media/argon-react.f38ddea9.png",
     "static/media/font-awesome.min.css": "/CAPSTONE2021/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/github.svg": "/CAPSTONE2021/static/media/github.4ffd4fe7.svg",
-    "static/media/google.svg": "/CAPSTONE2021/static/media/google.87be59a1.svg",
+    "static/media/github.svg": "/CAPSTONE2021/static/media/github.2e257125.svg",
+    "static/media/google.svg": "/CAPSTONE2021/static/media/google.08ea438e.svg",
     "static/media/ill-2.svg": "/CAPSTONE2021/static/media/ill-2.594b1ee1.svg",
     "static/media/img-1-1200x1000.jpg": "/CAPSTONE2021/static/media/img-1-1200x1000.1e7c70dc.jpg",
     "static/media/img-2-1200x1000.jpg": "/CAPSTONE2021/static/media/img-2-1200x1000.ba449a06.jpg",
@@ -33,9 +33,9 @@
     "static/media/white.png": "/CAPSTONE2021/static/media/white.d71fae57.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.69beb38a.js",
-    "static/js/2.28c0bd71.chunk.js",
-    "static/css/main.a9e0eb17.chunk.css",
-    "static/js/main.beb3317b.chunk.js"
+    "static/js/runtime-main.7b03807c.js",
+    "static/js/2.e6fa75c7.chunk.js",
+    "static/css/main.03c46523.chunk.css",
+    "static/js/main.57b5c173.chunk.js"
   ]
 }
