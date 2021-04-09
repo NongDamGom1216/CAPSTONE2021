@@ -67,14 +67,14 @@ class Carousel extends React.Component {
                   Gallery
                 </h1>
                 <p className="lead text-white mt-4">
-                  농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 농담곰 귀여워 
+                  제품 서비스에 대한 사진들 추가
                 </p>
                 <Button
                   className="btn-white mt-4"
                   color="default"
                   href="https://www.google.com/search?q=%EB%86%8D%EB%8B%B4%EA%B3%B0+%EA%B7%80%EC%97%AC%EC%9B%8C&rlz=1C1AVUB_enKR735KR735&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiAltGzutjvAhW9yIsBHQ0ZA3cQ_AUoAXoECAEQAw&biw=1222&bih=492"
                 >
-                  농담곰을 보러가자
+                  필요하면 다른 홈페이지 링크
                 </Button>
               </Col>
               <Col className="mb-lg-auto" lg="6">

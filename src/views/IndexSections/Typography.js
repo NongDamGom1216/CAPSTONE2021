@@ -31,9 +31,9 @@ class Typography extends React.Component {
         <Row className="py-3 align-items-center">
           
           <Col sm="9">
-            <h4 className="mb-0">소원을 말해봐<br></br>
-            네 마음속에 있는 작은 꿈을 말해봐<br></br>
-            네 머리에 있는 이상형을 그려봐</h4>
+            <h4 className="mb-0">회사 소개1<br></br>
+            회사 소개1<br></br>
+            회사 소개1</h4>
           </Col>
         </Row>
         
@@ -44,19 +44,19 @@ class Typography extends React.Component {
         <Row className="py-3 align-items-center">
           
           <Col sm="9">
-            <h4 className="mb-0">오 라일락 꽃이 지는 날 good bye<br></br>
-                                이런 결말이 어울려<br></br>
-                                안녕 꽃잎 같은 안녕<br></br>
-                                하이얀 우리 봄날의 climax<br></br>
-                                아 얼마나 기쁜 일이야</h4>
+            <h4 className="mb-0">회사 소개2<br></br>
+            회사 소개2<br></br>
+            회사 소개2<br></br>
+            회사 소개2<br></br>
+            회사 소개2</h4>
           </Col>
         </Row>
 
-        <h3 className="h4 text-success font-weight-bold mt-md">코딩 테스트를 잘하는 법</h3>
+        <h3 className="h4 text-success font-weight-bold mt-md">주요 연혁</h3>
         <Row className="py-3 align-items-center">
           <Col sm="3">
             <h3 className="text-uppercase text-muted font-weight-bold">
-              재능 70%
+              연혁1
             </h3>
           </Col>
           <Col sm="9">
@@ -72,7 +72,7 @@ class Typography extends React.Component {
         <Row className="py-3 align-items-center">
           <Col sm="3">
             <h3 className="text-uppercase text-muted font-weight-bold">
-              노력 30%
+              연혁2
             </h3>
           </Col>
           <Col sm="9">
@@ -87,12 +87,12 @@ class Typography extends React.Component {
         </Row>
         
         <h2 className="mt-lg mb-5">
-          <span>미쳐가는 중</span>
+          <span>주요 제품 소개</span>
         </h2>
         <Row>
           <Col sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-              후유코
+              제품1
             </small>
             <img
               alt="..."
@@ -103,7 +103,7 @@ class Typography extends React.Component {
           </Col>
           <Col sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-              메이
+              제품2
             </small>
             <img
               alt="..."
@@ -114,7 +114,7 @@ class Typography extends React.Component {
           </Col>
           <Col className="mt-5 mt-sm-0" sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-              아사히
+              제품3
             </small>
             <img
               alt="..."
@@ -125,7 +125,7 @@ class Typography extends React.Component {
           </Col>
           <Col className="mt-5 mt-sm-0" sm="3" xs="6">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-              하즈키
+              제품4
             </small>
             <img
               alt="..."
