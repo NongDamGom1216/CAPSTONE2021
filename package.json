@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
-  "homepage": "https://Pastel-Palettes.github.io/CAPSTONE2021",
+  "homepage": "https://nongdamgom1216.github.io/CAPSTONE2021",
   "scripts": {
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
