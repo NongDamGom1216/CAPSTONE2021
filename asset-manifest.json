@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/CAPSTONE2021/static/css/main.03c46523.chunk.css",
-    "main.js": "/CAPSTONE2021/static/js/main.60e9060f.chunk.js",
-    "main.js.map": "/CAPSTONE2021/static/js/main.60e9060f.chunk.js.map",
+    "main.css": "/CAPSTONE2021/static/css/main.dbf137ac.chunk.css",
+    "main.js": "/CAPSTONE2021/static/js/main.a2799e42.chunk.js",
+    "main.js.map": "/CAPSTONE2021/static/js/main.a2799e42.chunk.js.map",
     "runtime-main.js": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js",
     "runtime-main.js.map": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js.map",
     "static/js/2.e6fa75c7.chunk.js": "/CAPSTONE2021/static/js/2.e6fa75c7.chunk.js",
     "static/js/2.e6fa75c7.chunk.js.map": "/CAPSTONE2021/static/js/2.e6fa75c7.chunk.js.map",
     "index.html": "/CAPSTONE2021/index.html",
-    "precache-manifest.1e80eaedeea440d768453fa9aec9e5a7.js": "/CAPSTONE2021/precache-manifest.1e80eaedeea440d768453fa9aec9e5a7.js",
+    "precache-manifest.31d9a9aee3b98caedfbb241e89f7b410.js": "/CAPSTONE2021/precache-manifest.31d9a9aee3b98caedfbb241e89f7b410.js",
     "service-worker.js": "/CAPSTONE2021/service-worker.js",
-    "static/css/main.03c46523.chunk.css.map": "/CAPSTONE2021/static/css/main.03c46523.chunk.css.map",
+    "static/css/main.dbf137ac.chunk.css.map": "/CAPSTONE2021/static/css/main.dbf137ac.chunk.css.map",
     "static/js/2.e6fa75c7.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.e6fa75c7.chunk.js.LICENSE.txt",
-    "static/js/main.60e9060f.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/main.60e9060f.chunk.js.LICENSE.txt",
+    "static/js/main.a2799e42.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/main.a2799e42.chunk.js.LICENSE.txt",
     "static/media/argon-react.png": "/CAPSTONE2021/static/media/argon-react.f38ddea9.png",
     "static/media/font-awesome.min.css": "/CAPSTONE2021/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/github.svg": "/CAPSTONE2021/static/media/github.2e257125.svg",
@@ -23,6 +23,7 @@
     "static/media/img1.png": "/CAPSTONE2021/static/media/img1.3f6d080c.png",
     "static/media/img2.jpg": "/CAPSTONE2021/static/media/img2.2e5cb23f.jpg",
     "static/media/landing.jpg": "/CAPSTONE2021/static/media/landing.0ec26478.jpg",
+    "static/media/argon-design-system-react.scss?v1.1.0": "/CAPSTONE2021/static/media/landing3.255507f0.jpg",
     "static/media/nucleo.css": "/CAPSTONE2021/static/media/nucleo-icons.f82ec6ba.ttf",
     "static/media/profile.jpg": "/CAPSTONE2021/static/media/profile.278a0d25.jpg",
     "static/media/promo-1.png": "/CAPSTONE2021/static/media/promo-1.75f7ab18.png",
@@ -35,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b03807c.js",
     "static/js/2.e6fa75c7.chunk.js",
-    "static/css/main.03c46523.chunk.css",
-    "static/js/main.60e9060f.chunk.js"
+    "static/css/main.dbf137ac.chunk.css",
+    "static/js/main.a2799e42.chunk.js"
   ]
 }
