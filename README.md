@@ -1,1 +1,1 @@
-### `yarn start`1
+### `yarn start`
