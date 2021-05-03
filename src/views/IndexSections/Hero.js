@@ -19,7 +19,7 @@ class Hero extends React.Component {
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
                       <h3 className="text-black font-weight-bold mb-0 mr-2">
-                        CUBE LAB SERVICE
+                        CUBE LAB SERVICE 테스트
                       </h3>
                     <p className="lead text-black">
                       Rapid 3D Innovative Fixturing Leader<br></br>
