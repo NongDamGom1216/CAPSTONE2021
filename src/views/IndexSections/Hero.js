@@ -6,7 +6,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 class Hero extends React.Component {
   render() {
     return (
-      <>
+      
         <div className="position-relative">
           {/* Hero for FREE version */}
           <section className="section section-hero section-shaped">
@@ -18,19 +18,22 @@ class Hero extends React.Component {
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
+
                       <h3 className="text-white font-weight-bold mb-0 mr-2">
                         Rental Manual & Simulation
+                        </h3>
+                      <h3 className="text-white font-weight-bold mb-0 mr-2">
+                        CUBE LAB SERVICE
                       </h3>
-          
                   </Col>
-                </Row>
-              </div>
+                  </Row>
+                  </div>
             </Container>
-            {/* SVG separator */}
+         
            
           </section>
         </div>
-      </>
+      
     );
   }
 }
