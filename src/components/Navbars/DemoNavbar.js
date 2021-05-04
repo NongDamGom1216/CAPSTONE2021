@@ -90,12 +90,12 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                <ul class ="ni ni-collection d-lg-none mr-1" />
+                <ul className ="ni ni-collection d-lg-none mr-1" />
                 <li>
-                  <a class="nav-link" href="/landing-page">Manual</a>
+                  <Link className="nav-link" to = "/landing-page" tag={Link}>Manual</Link>
                 </li>
                 <li>
-                  <a class="nav-link" href="/profile-page">Simulation</a>
+                  <Link className="nav-link" to = "/profile-page" tag={Link}>Simulation</Link>
                 </li>
                 </Nav>
                 
