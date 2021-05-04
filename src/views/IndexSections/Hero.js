@@ -23,7 +23,7 @@ class Hero extends React.Component {
                         Rental Manual & Simulation
                         </h3>
                       <h3 className="text-white font-weight-bold mb-0 mr-2">
-                        CUBE LAB SERVICE
+                        provide
                       </h3>
                   </Col>
                   </Row>
