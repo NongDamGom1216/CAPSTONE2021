@@ -39,7 +39,7 @@ class Profile extends React.Component {
             {/* Circles background */}
             
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew">
+            <div className="shape shape-style-1 shape-default">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -48,10 +48,7 @@ class Profile extends React.Component {
                 x="0"
                 y="0"
               >
-                <polygon
-                  className="fill-white"
-                  points="2560 0 2560 100 0 100"
-                />
+               
               </svg>
             </div>
           </section>

@@ -293,11 +293,13 @@
 
         // shape color variations
         &.shape-primary {
-            background: linear-gradient(150deg, shapes-primary-color("step-1-gradient-bg") 15%, shapes-primary-color("step-2-gradient-bg") 70%, shapes-primary-color("step-3-gradient-bg") 94%);
+            background: url("../../img/theme/landing3.jpg");
+            background-size: cover;
         }
 
         &.shape-default {
-            background: url("../../img/theme/landing3.jpg");
+            background: url("../../img/theme/main10.jpg");
+            background-size: cover;
         }
 
         &.shape-light {

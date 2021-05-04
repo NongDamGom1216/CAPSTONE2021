@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
@@ -107,99 +90,15 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Product</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Rental
-                      </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Retooling
-                      </DropdownItem>
-                      
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Manual</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Service Manual
-                      </DropdownItem>
-                      
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-                  
-
-
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Rental</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        ALUFIX
-                      </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        MEGALU
-                      </DropdownItem>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Customer</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        FAQ
-                      </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Notice
-                      </DropdownItem>
-                      
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-
+                <ul class ="ni ni-collection d-lg-none mr-1" />
+                <li>
+                  <a class="nav-link" href="/landing-page">Manual</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="/profile-page">Simulation</a>
+                </li>
                 </Nav>
-                <Nav className="align-items-lg-center ml-lg-auto" navbar>
-              
-                  <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Button
-                      className="btn-neutral btn-icon"
-                      color="default"
-                      to="/login-page" tag={Link}
-                      //target="_blank"
-                    >
                 
-                      <span className="nav-link-inner--text ml-1">
-                        Login
-                      </span>
-                    
-                    </Button>
-
-                    <Button
-                      className="btn-neutral btn-icon"
-                      color="default"
-                      to="/register-page" tag={Link}
-                      //target="_blank"
-                    >
-                
-                      <span className="nav-link-inner--text ml-1">
-                        Register
-                      </span>
-                    
-                    </Button>
-                  </NavItem>
-                </Nav>
               </UncontrolledCollapse>
             </Container>
           </Navbar>

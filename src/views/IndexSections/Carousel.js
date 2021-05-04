@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -52,7 +36,7 @@ class Carousel extends React.Component {
     return (
       <>
         <section className="section section-shaped">
-          <div className="shape shape-style-1 shape-default">
+          <div className="shape shape-style-1 shape-primary">
             <span />
             <span />
             <span />
@@ -63,14 +47,12 @@ class Carousel extends React.Component {
           <Container className="py-md">
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
-                <h1 className="text-white font-weight-light">
-                  Gallery
+                <h1 className="h10 text-secondary font-weight-bold">
+                  제품 소개
                 </h1>
-                <p className="lead text-white mt-4">
-                  제품 서비스에 대한 사진들 추가
-                </p>
+                
                 <Button
-                  className="btn-white mt-4"
+                  className="btn-black mt-4"
                   color="default"
                   href="https://www.google.com/search?q=%EB%86%8D%EB%8B%B4%EA%B3%B0+%EA%B7%80%EC%97%AC%EC%9B%8C&rlz=1C1AVUB_enKR735KR735&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiAltGzutjvAhW9yIsBHQ0ZA3cQ_AUoAXoECAEQAw&biw=1222&bih=492"
                 >
@@ -94,7 +76,7 @@ class Carousel extends React.Component {
               x="0"
               y="0"
             >
-              <polygon className="fill-white" points="2560 0 2560 100 0 100" />
+              
             </svg>
           </div>
         </section>
