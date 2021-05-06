@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e11060ff38904bd15c7a7624cd99e76c",
+    "revision": "fb4ae077b758ea299a034f98fb9a67b2",
     "url": "/CAPSTONE2021/index.html"
   },
   {
-    "revision": "3a3dab836d574117e55e",
+    "revision": "fccf2c5b851340542f91",
     "url": "/CAPSTONE2021/static/css/main.6e9c22cf.chunk.css"
   },
   {
-    "revision": "742a0ed061f8a6678ef4",
-    "url": "/CAPSTONE2021/static/js/2.a076d624.chunk.js"
+    "revision": "df9aa909a5930267964b",
+    "url": "/CAPSTONE2021/static/js/2.69e42c28.chunk.js"
   },
   {
     "revision": "402769e0fde7682650babf6b5720df16",
-    "url": "/CAPSTONE2021/static/js/2.a076d624.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/2.69e42c28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a3dab836d574117e55e",
-    "url": "/CAPSTONE2021/static/js/main.8f99ccc7.chunk.js"
+    "revision": "fccf2c5b851340542f91",
+    "url": "/CAPSTONE2021/static/js/main.83c394a6.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/CAPSTONE2021/static/js/main.8f99ccc7.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/main.83c394a6.chunk.js.LICENSE.txt"
   },
   {
     "revision": "5422e25e33cce68a0c63",
@@ -56,10 +56,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/google.08ea438e.svg"
   },
   {
-    "revision": "594b1ee1d95ada356eaad078e9217932",
-    "url": "/CAPSTONE2021/static/media/ill-2.594b1ee1.svg"
-  },
-  {
     "revision": "1e7c70dc7d471d845aeed9e9bead0fe5",
     "url": "/CAPSTONE2021/static/media/img-1-1200x1000.1e7c70dc.jpg"
   },
@@ -74,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e5cb23fc8b3eca364372aa319f30c8c",
     "url": "/CAPSTONE2021/static/media/img2.2e5cb23f.jpg"
+  },
+  {
+    "revision": "fd5a7359c7e16f55a5f98563d4bcbaba",
+    "url": "/CAPSTONE2021/static/media/img3.fd5a7359.PNG"
   },
   {
     "revision": "0ec264785c9b6efbed2651d84105f436",
@@ -110,22 +110,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "278a0d250cc46de3a4f65a0791479e71",
     "url": "/CAPSTONE2021/static/media/profile.278a0d25.jpg"
-  },
-  {
-    "revision": "75f7ab18f707114d817522df8dea0a3b",
-    "url": "/CAPSTONE2021/static/media/promo-1.75f7ab18.png"
-  },
-  {
-    "revision": "53033970a416368da35794389680266f",
-    "url": "/CAPSTONE2021/static/media/team-1-800x800.53033970.jpg"
-  },
-  {
-    "revision": "dcfcf3b77210fe85b0abc8260e6fa70e",
-    "url": "/CAPSTONE2021/static/media/team-2-800x800.dcfcf3b7.jpg"
-  },
-  {
-    "revision": "497bb3590e24c9f8b645864bfffc39b8",
-    "url": "/CAPSTONE2021/static/media/team-3-800x800.497bb359.jpg"
   },
   {
     "revision": "230071328b705f8686cabd26a85ed6a5",
