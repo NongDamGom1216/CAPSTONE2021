@@ -44,15 +44,7 @@ class Landing extends React.Component {
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
               <div className="shape shape-style-1 shape-default">
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+              
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
@@ -80,10 +72,7 @@ class Landing extends React.Component {
                   x="0"
                   y="0"
                 >
-                  <polygon
-                    className="fill-white"
-                    points="2560 0 2560 100 0 100"
-                  />
+                  
                 </svg>
               </div>
             </section>
@@ -172,70 +161,54 @@ class Landing extends React.Component {
               </Card>
             </Container>
           </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
-            <Container>
-              <Row className="justify-content-center mt--500">
-                <Col lg="8">
-                  <Card className="bg-gradient-secondary shadow">
-                    <CardBody className="p-lg-5">
-                      <h4 className="mb-1">가리지 말라고</h4>
-                      <p className="mt-0">
-                        Your project is very important to us.
-                      </p>
-                      <FormGroup
-                        className={classnames("mt-5", {
-                          focused: this.state.nameFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-user-run" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Your name"
-                            type="text"
-                            onFocus={e => this.setState({ nameFocused: true })}
-                            onBlur={e => this.setState({ nameFocused: false })}
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup
-                        className={classnames({
-                          focused: this.state.emailFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-email-83" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Email address"
-                            type="email"
-                            onFocus={e => this.setState({ emailFocused: true })}
-                            onBlur={e => this.setState({ emailFocused: false })}
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup className="mb-4">
-                        <Input
-                          className="form-control-alternative"
-                          cols="80"
-                          name="name"
-                          placeholder="Type a message..."
-                          rows="4"
-                          type="textarea"
-                        />
-                      </FormGroup>
-                    </CardBody>
-                  </Card>
+          <section className="section section-lg bg-gradient-default">
+            <Container className="pt-lg pb-300">
+              <Row className="text-center justify-content-center">
+                <Col lg="10">
+                  <h2 className="display-3 text-white">Build something</h2>
+                  <p className="lead text-white">
+                    According to the National Oceanic and Atmospheric
+                    Administration, Ted, Scambos, NSIDClead scentist, puts the
+                    potentially record low maximum sea ice extent tihs year down
+                    to low ice.
+                  </p>
+                </Col>
+              </Row>
+              <Row className="row-grid mt-5">
+                <Col lg="4">
+                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <i className="ni ni-settings text-primary" />
+                  </div>
+                  <h5 className="text-white mt-3">Building tools</h5>
+                  <p className="text-white mt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </Col>
+                <Col lg="4">
+                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <i className="ni ni-ruler-pencil text-primary" />
+                  </div>
+                  <h5 className="text-white mt-3">Grow your market</h5>
+                  <p className="text-white mt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </Col>
+                <Col lg="4">
+                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                    <i className="ni ni-atom text-primary" />
+                  </div>
+                  <h5 className="text-white mt-3">Launch time</h5>
+                  <p className="text-white mt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
                 </Col>
               </Row>
             </Container>
-          </section> 
+            
+          </section>
         </main>
         <SimpleFooter />
       </>
