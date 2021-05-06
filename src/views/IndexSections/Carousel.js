@@ -6,25 +6,49 @@ import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 
 const items = [
   {
-    src: require("assets/img/theme/img-1-1200x1000.jpg"),
+    src: require("assets/img/theme/alufix1.jpg"),
     altText: "",
     caption: "",
     header: ""
   },
   {
-    src: require("assets/img/theme/img-2-1200x1000.jpg"),
+    src: require("assets/img/theme/alufix2.jpg"),
     altText: "",
     caption: "",
     header: ""
   },
   {
-    src: require("assets/img/theme/img1.png"),
+    src: require("assets/img/theme/alufix3.jpg"),
     altText: "",
     caption: "",
     header: ""
   },
   {
-    src: require("assets/img/theme/img2.jpg"),
+    src: require("assets/img/theme/alufix4.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  },
+  {
+    src: require("assets/img/theme/alufix5.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  },
+  {
+    src: require("assets/img/theme/alufix6.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  },
+  {
+    src: require("assets/img/theme/alufix7.jpg"),
+    altText: "",
+    caption: "",
+    header: ""
+  },
+  {
+    src: require("assets/img/theme/alufix8.jpg"),
     altText: "",
     caption: "",
     header: ""
@@ -36,13 +60,8 @@ class Carousel extends React.Component {
     return (
       <>
         <section className="section section-shaped">
-          <div className="shape shape-style-1 shape-primary">
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
+          <div className="shape shape-style-1 shape-light">
+            
           </div>
           <Container className="py-md">
             <Row className="justify-content-between align-items-center">
@@ -54,9 +73,10 @@ class Carousel extends React.Component {
                 <Button
                   className="btn-black mt-4"
                   color="default"
-                  href="https://www.google.com/search?q=%EB%86%8D%EB%8B%B4%EA%B3%B0+%EA%B7%80%EC%97%AC%EC%9B%8C&rlz=1C1AVUB_enKR735KR735&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiAltGzutjvAhW9yIsBHQ0ZA3cQ_AUoAXoECAEQAw&biw=1222&bih=492"
+                  href="http://www.alufix.co.kr/default/m3/s1.php?m=3&sm=30"
+                  target="_blank"
                 >
-                  필요하면 다른 홈페이지 링크
+                  상세 페이지 이동
                 </Button>
               </Col>
               <Col className="mb-lg-auto" lg="6">
