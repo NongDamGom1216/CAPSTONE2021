@@ -26,37 +26,11 @@ import SimpleFooter from "components/Footers/SimpleFooter.js";
 import Simul from "components/Simul";
 
 class Profile extends React.Component {
-  state = {
-    price: ' ',
-    month: ' ',
-    deposit: ' ',
-    fee: '0',
-    amount: '0',
-    deposit_: '0',
-    retooling: '0'
-  }
 
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
     this.refs.main.scrollTop = 0;
-  }
-
-  priceOnChange = (e) => {
-    this.setState({ price: e.target.value });
-  }
-
-  monthOnChange = (e) => {
-    this.setState({ month: e.target.value });
-  }
-
-  depositOnChange = (e) => {
-    this.setState({ deposit: e.target.value });
-  }
-
-
-  handleClick = (e) => {
-    this.setState({ retooling: (this.state.price * 0.3) * 0.7 });
   }
 
   render() {
