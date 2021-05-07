@@ -1,26 +1,4 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0 based on Argon Design System - v1.1.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #5e72e4;
   --indigo: #5603ad;
@@ -66,7 +44,8 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -10272,16 +10251,19 @@ button.bg-darker:focus {
   font-weight: 400 !important; }
 
 .font-weight-bold {
-  font-weight: 600 !important; }
+  font-weight: 600 !important;
+   }
 
 .font-weight-bolder {
-  font-weight: bolder !important; }
+  font-weight: bolder !important;
+ }
 
 .font-italic {
   font-style: italic !important; }
 
 .text-white {
-  color: #fff !important; }
+  color: #fff !important;
+ }
 
 .text-primary {
   color: #5e72e4 !important; }
@@ -16988,5 +16970,8 @@ td.rdtYear:hover {
   margin-bottom: 0;
   flex: 1 1 auto;
   width: 1%; }
+
+
+
 
 /*# sourceMappingURL=argon-design-system-react.css.map */
