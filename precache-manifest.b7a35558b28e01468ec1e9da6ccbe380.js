@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c241fc8efd19d6a6ec5256ffd4f61b2a",
+    "revision": "a5053aade42f9ccd920b224aaa063c9d",
     "url": "/CAPSTONE2021/index.html"
   },
   {
-    "revision": "d99cbfe013216ab3bea1",
-    "url": "/CAPSTONE2021/static/css/main.b4bc3764.chunk.css"
+    "revision": "448d05f288c282415243",
+    "url": "/CAPSTONE2021/static/css/main.f5a524ad.chunk.css"
   },
   {
-    "revision": "183411dc1f4bae23572f",
-    "url": "/CAPSTONE2021/static/js/2.3739d01a.chunk.js"
+    "revision": "ce01ba2680a4c796f172",
+    "url": "/CAPSTONE2021/static/js/2.5787bb19.chunk.js"
   },
   {
     "revision": "402769e0fde7682650babf6b5720df16",
-    "url": "/CAPSTONE2021/static/js/2.3739d01a.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/2.5787bb19.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d99cbfe013216ab3bea1",
-    "url": "/CAPSTONE2021/static/js/main.4377f298.chunk.js"
+    "revision": "448d05f288c282415243",
+    "url": "/CAPSTONE2021/static/js/main.80fad962.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/CAPSTONE2021/static/js/main.4377f298.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/main.80fad962.chunk.js.LICENSE.txt"
   },
   {
     "revision": "5422e25e33cce68a0c63",
@@ -130,10 +130,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "278a0d250cc46de3a4f65a0791479e71",
     "url": "/CAPSTONE2021/static/media/profile.278a0d25.jpg"
-  },
-  {
-    "revision": "230071328b705f8686cabd26a85ed6a5",
-    "url": "/CAPSTONE2021/static/media/team-4-800x800.23007132.jpg"
   },
   {
     "revision": "d71fae5734332fae79fe5020a79eedae",
