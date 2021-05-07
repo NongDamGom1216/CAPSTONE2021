@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React, { useState } from "react";
 
 // reactstrap components
@@ -85,32 +69,22 @@ class Profile extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-dark">
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">Rental Service Simulation{" "}</h1>
-                      <p className="lead text-white">채워도 되고 비워도 되고 아몰랑~~2</p>
                     </Col>
                   </Row>
                 </div>
               </Container>
-              <div className="separator separator-bottom separator-skew">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="none"
-                  version="1.1"
-                  viewBox="0 0 2560 100"
-                  x="0"
-                  y="0"
-                >
-                </svg>
-              </div>
+            
             </section>
+            
           </div>
-
+        
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
