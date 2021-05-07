@@ -50,9 +50,24 @@ function Simul() {
 
 
   return (
-    <div>
+    <div className="custom-control custom-radio mb-3">
       <input type="number" name="price" placeholder="금액" value={price} onChange={onChange} /><br />
-      <input type="radio" name="month" value="12" onChange={onChange} /> 12개월
+      <input
+                className="custom-control-input"
+                defaultChecked
+                id="customRadio2"
+                value="12"
+                name="month"
+                type="radio"
+                onChange={onChange}
+     />
+
+
+      <label className="custom-control-label" htmlFor="customRadio2">
+                <span>12개월</span>
+      </label>
+
+
       <input type="radio" name="month" value="24" onChange={onChange} /> 24개월
       <input type="radio" name="month" value="36" onChange={onChange} /> 36개월
       <input type="radio" name="month" value="48" onChange={onChange} /> 48개월
