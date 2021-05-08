@@ -84,14 +84,14 @@ class Profile extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-dark">
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">Rental Service Simulation{" "}</h1>
-                      <p className="lead text-white">채워도 되고 비워도 되고 아몰랑~~2</p>
+                      
                     </Col>
                   </Row>
                 </div>
