@@ -118,7 +118,7 @@ class Profile extends React.Component {
                     <Row>
                       <Col md='2'>
                         <div class="mb-5">
-                          <label class="form-control-label">제품가격</label>
+                          <label class="form-control-label">제품가격(원)</label>
                         </div>
                       </Col>
                       <Col>
