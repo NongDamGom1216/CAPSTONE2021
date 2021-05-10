@@ -27,7 +27,7 @@ import SimpleFooter from "components/Footers/SimpleFooter.js";
 class Profile extends React.Component {
   state = {
     price: '0',
-    month: '0',
+    month: '12',
     deposit: '0',
     fee: '0',
     amount: '0',
@@ -118,12 +118,12 @@ class Profile extends React.Component {
                     <Row>
                       <Col md='2'>
                         <div class="mb-5">
-                          <label class="form-control-label">제품가격(원)</label>
+                          <label class="form-control-label">제품가격</label>
                         </div>
                       </Col>
                       <Col>
                         <div class="form-group row">
-                          <input type="number" class="form-control" name="price" placeholder="금액" value={this.price} onChange={this.onChange} />
+                          <input type="number" class="form-control" name="price" placeholder="금액 (원)" value={this.price} onChange={this.onChange} />
                         </div>
                       </Col>
                     </Row>
@@ -135,25 +135,14 @@ class Profile extends React.Component {
                           </div>
                         </Col>
                         <Col>
-                          <div class="custom-control custom-radio custom-control-inline col-md-2">
-                            <input type="radio" class="custom-control-input" id="monthRadio1" name="month" value="12" onChange={this.onChange} />
-                            <label class="custom-control-label" for="monthRadio1">12개월</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline col-md-2">
-                            <input type="radio" class="custom-control-input" id="monthRadio2" name="month" value="24" onChange={this.onChange} />
-                            <label class="custom-control-label" for="monthRadio2">24개월</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline col-md-2">
-                            <input type="radio" class="custom-control-input" id="monthRadio3" name="month" value="36" onChange={this.onChange} />
-                            <label class="custom-control-label" for="monthRadio3">36개월</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline col-md-2">
-                            <input type="radio" class="custom-control-input" id="monthRadio4" name="month" value="48" onChange={this.onChange} />
-                            <label class="custom-control-label" for="monthRadio4">48개월</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="monthRadio5" name="month" value="60" onChange={this.onChange} />
-                            <label class="custom-control-label" for="monthRadio5">60개월</label>
+                          <div class="form-group row">
+                            <select name="month" class="form-control" onChange={this.onChange}>
+                              <option value="12"> 12개월 </option>
+                              <option value="24"> 24개월 </option>
+                              <option value="36"> 36개월 </option>
+                              <option value="48"> 48개월 </option>
+                              <option value="60"> 60개월 </option>
+                            </select>
                           </div>
                         </Col>
                       </Row>
@@ -162,7 +151,7 @@ class Profile extends React.Component {
                       <Row>
                         <Col md='2'>
                           <div>
-                            <label class="form-control-label mr-5">보증금</label>
+                            <label class="form-control-label mr-5">렌탈 등록비</label>
                           </div>
                         </Col>
                         <Col>
@@ -191,7 +180,7 @@ class Profile extends React.Component {
           <div>
             <section className="section section-lg bg-gradient-default">
               <Row>
-                <Col>
+                <Col md='4'>
                   <h1 class='text-secondary ml-6'>렌탈비</h1>
                 </Col>
                 <Col>
@@ -216,7 +205,7 @@ class Profile extends React.Component {
               </Row>
               <Row>
                 <Col>
-                  <h3 class='text-secondary ml-6'>보증금</h3>
+                  <h3 class='text-secondary ml-6'>렌탈 등록비</h3>
                 </Col>
                 <Col>
                   <h3 class='text-right text-secondary mr-6'>
@@ -239,7 +228,7 @@ class Profile extends React.Component {
             </section>
           </div>
         </main>
-        <SimpleFooter />
+        <SimpleFooter/>
       </>
     );
   }

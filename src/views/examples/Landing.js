@@ -118,12 +118,12 @@ class Landing extends React.Component {
                     </blockquote>
                   </Card>
                 </Col>
-                <Col md="6">
+                <Col md="5">
                   <div className="pl-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>렌탈 서비스의 장점</h3>
+                    <h2>렌탈 서비스의 장점</h2>
                     <p>
                       저렴한 초기금액과 월 분할 납입 방식으로 WITTE 사의 ALUFIX/MEGALU 검사구 제품을 이용 가능
                     </p>
@@ -143,14 +143,15 @@ class Landing extends React.Component {
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
                   <Row className="align-items-center">
-                    <Col lg="8">
+                    <Col lg="10">
                       <h3 className="text-white">
-                        잘은 모르겠지만 중요한 말 머시기 머시기
+                        렌탈 서비스 신청 방법
                       </h3>
-                      <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
+                      <p className="lead text-white mt-1">
+                        자세한 신청 방법은 ~~으로 문의
+                      </p>
+                      <p className="lead text-white mt-1">
+                        중요한 내용
                       </p>
                     </Col>
                     
