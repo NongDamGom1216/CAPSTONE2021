@@ -18,7 +18,7 @@
 import React, { useState } from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Colm, CardImg, Col } from "reactstrap";
+import { Button, Card, Container, Row, Colm, CardImg, Col, Badge } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
@@ -27,7 +27,7 @@ import SimpleFooter from "components/Footers/SimpleFooter.js";
 class Profile extends React.Component {
   state = {
     price: '0',
-    month: '12',
+    month: '0',
     deposit: '0',
     fee: '0',
     amount: '0',
@@ -83,15 +83,14 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <div className="position-relative">
             {/* shape Hero */}
-            <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-dark">
+            <section className="section-lg section-shaped pb-150">
+              <div className="shape shape-style-1 shape-default">
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">Rental Service Simulation{" "}</h1>
-                      
                     </Col>
                   </Row>
                 </div>
@@ -109,126 +108,181 @@ class Profile extends React.Component {
               </div>
             </section>
           </div>
-          <div>
-            <section className="section bg-secondary">
-              <Container>
-                <Row>
-                  <Col mr='auto'>
-                    <br />
-                    <Row>
-                      <Col md='2'>
-                        <div class="mb-5">
-                          <label class="form-control-label">제품가격</label>
-                        </div>
-                      </Col>
-                      <Col>
-                        <div class="form-group row">
-                          <input type="number" class="form-control" name="price" placeholder="금액 (원)" value={this.price} onChange={this.onChange} />
-                        </div>
-                      </Col>
-                    </Row>
-                    <div class="mb-4">
-                      <Row>
-                        <Col md='2'>
-                          <div class="mb-4">
-                            <label class="form-control-label">렌탈기간</label>
-                          </div>
-                        </Col>
-                        <Col>
-                          <div class="form-group row">
-                            <select name="month" class="form-control" onChange={this.onChange}>
-                              <option value="12"> 12개월 </option>
-                              <option value="24"> 24개월 </option>
-                              <option value="36"> 36개월 </option>
-                              <option value="48"> 48개월 </option>
-                              <option value="60"> 60개월 </option>
-                            </select>
-                          </div>
-                        </Col>
-                      </Row>
-                    </div>
-                    <div class="mb-5">
-                      <Row>
-                        <Col md='2'>
-                          <div>
-                            <label class="form-control-label mr-5">렌탈 등록비</label>
-                          </div>
-                        </Col>
-                        <Col>
-                          <div class="custom-control custom-radio custom-control-inline col-md-2">
-                            <input type="radio" class="custom-control-input" id="depositRadio1" name="deposit" value="10" onChange={this.onChange} />
-                            <label class="custom-control-label" for="depositRadio1">10%</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline col-md-2">
-                            <input type="radio" class="custom-control-input" id="depositRadio2" name="deposit" value="20" onChange={this.onChange} />
-                            <label class="custom-control-label" for="depositRadio2">20%</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline col-md-2">
-                            <input type="radio" class="custom-control-input" id="depositRadio3" name="deposit" value="30" onChange={this.onChange} />
-                            <label class="custom-control-label" for="depositRadio3">30%</label>
-                          </div>
-                        </Col>
-                      </Row>
-                    </div>
-                    <button type="button" class="btn btn-outline-primary btn-block" onClick={this.handleClick}>Calculation</button>
-                    <br />
-                  </Col>
-                </Row>
-              </Container>
-            </section>
-          </div>
-          <div>
-            <section className="section section-lg bg-gradient-default">
-              <Row>
-                <Col md='4'>
-                  <h1 class='text-secondary ml-6'>렌탈비</h1>
-                </Col>
+          <section className="section-lg bg-secondary">
+            <Container>
+              <Row className="row-grid align-items-center">
                 <Col>
-                  <h1 class='text-right text-secondary mr-6'>
-                    <span style={{ fontSize: "0.5em" }}>월 </span>
-                    {Math.floor(this.state.fee).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
-                    <span style={{ fontSize: "0.5em" }}>원 </span>
-                  </h1>
+                  <Row className='mb-3 align-items-center'>
+                    <Col md='2'>
+                      <strong>제품가격</strong>
+                    </Col>
+                    <Col>
+                      <input type="number" class="form-control" name="price" placeholder="금액" value={this.price} onChange={this.onChange} />
+                    </Col>
+                  </Row>
+                  <Row className='mb-4'>
+                    <Col md='2'>
+                      <strong>렌탈기간</strong>
+                    </Col>
+                    <Col>
+                      <div className="custom-control custom-radio custom-control-inline col-md-2">
+                        <input
+                          type="radio"
+                          className="custom-control-input"
+                          id="monthRadio1"
+                          name="month"
+                          value="12"
+                          onChange={this.onChange}
+                        />
+                        <label className="custom-control-label" for="monthRadio1">12개월</label>
+                      </div>
+                      <div className="custom-control custom-radio custom-control-inline col-md-2">
+                        <input
+                          type="radio"
+                          className="custom-control-input"
+                          id="monthRadio2"
+                          name="month"
+                          value="24"
+                          onChange={this.onChange}
+                        />
+                        <label className="custom-control-label" for="monthRadio2">24개월</label>
+                      </div>
+                      <div className="custom-control custom-radio custom-control-inline col-md-2">
+                        <input
+                          type="radio"
+                          className="custom-control-input"
+                          id="monthRadio3"
+                          name="month"
+                          value="36"
+                          onChange={this.onChange}
+                        />
+                        <label className="custom-control-label" for="monthRadio3">36개월</label>
+                      </div>
+                      <div className="custom-control custom-radio custom-control-inline col-md-2">
+                        <input
+                          type="radio"
+                          className="custom-control-input"
+                          id="monthRadio4"
+                          name="month"
+                          value="48"
+                          onChange={this.onChange}
+                        />
+                        <label className="custom-control-label" for="monthRadio4">48개월</label>
+                      </div>
+                      <div className="custom-control custom-radio custom-control-inline">
+                        <input
+                          type="radio"
+                          className="custom-control-input"
+                          id="monthRadio5"
+                          name="month"
+                          value="60"
+                          onChange={this.onChange}
+                        />
+                        <label className="custom-control-label" for="monthRadio5">60개월</label>
+                      </div>
+                    </Col>
+
+                  </Row>
+                  <Row className='mb-5'>
+                    <Col md='2'>
+                      <strong>보증금</strong>
+                    </Col>
+                    <Col>
+                      <div className="custom-control custom-radio custom-control-inline col-md-2">
+                        <input
+                          type="radio"
+                          className="custom-control-input"
+                          id="depositRadio1" name="deposit"
+                          value="10"
+                          onChange={this.onChange}
+                        />
+                        <label className="custom-control-label" for="depositRadio1">10%</label>
+                      </div>
+                      <div className="custom-control custom-radio custom-control-inline col-md-2">
+                        <input
+                          type="radio"
+                          className="custom-control-input"
+                          id="depositRadio2"
+                          name="deposit"
+                          value="20"
+                          onChange={this.onChange}
+                        />
+                        <label className="custom-control-label" for="depositRadio2">20%</label>
+                      </div>
+                      <div className="custom-control custom-radio custom-control-inline col-md-2">
+                        <input
+                          type="radio"
+                          className="custom-control-input"
+                          id="depositRadio3"
+                          name="deposit"
+                          value="30"
+                          onChange={this.onChange}
+                        />
+                        <label className="custom-control-label" for="depositRadio3">30%</label>
+                      </div>
+                    </Col>
+                  </Row>
+                  <button
+                    type="button"
+                    className="btn btn-outline-primary btn-block"
+                    onClick={this.handleClick}>
+                    Calculation
+                </button>
                 </Col>
+
               </Row>
-              <Row>
-                <Col>
-                  <h1 class='text-secondary ml-6'>납입금액</h1>
-                </Col>
-                <Col>
-                  <h1 class='text-right text-secondary mr-6'>
-                    <span style={{ fontSize: "0.5em" }}>총 </span>
-                    {Math.floor(this.state.amount).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
-                    <span style={{ fontSize: "0.5em" }}>원 </span>
-                  </h1>
-                </Col>
-              </Row>
-              <Row>
-                <Col>
-                  <h3 class='text-secondary ml-6'>렌탈 등록비</h3>
-                </Col>
-                <Col>
-                  <h3 class='text-right text-secondary mr-6'>
-                    {Math.floor(this.state.deposit_).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
-                    <span style={{ fontSize: "0.5em" }}>원 </span>
-                  </h3>
-                </Col>
-              </Row>
-              <Row>
-                <Col>
-                  <h3 class='text-secondary ml-6'>첫 리툴링</h3>
-                </Col>
-                <Col>
-                  <h3 class='text-right text-secondary mr-6'>
-                    {Math.floor(this.state.retooling).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
-                    <span style={{ fontSize: "0.5em" }}>원 </span>
-                  </h3>
-                </Col>
-              </Row>
-            </section>
-          </div>
+            </Container>
+          </section>
+          <section className="section-sm bg-gradient-default">
+            <Row>
+              <Col>
+                <h1 className='text-secondary ml-5'>렌탈비</h1>
+              </Col>
+              <Col>
+                <h1 className='text-right text-secondary mr-5'>
+                  <span style={{ fontSize: "0.5em" }}>월 </span>
+                  {Math.floor(this.state.fee).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                  <span style={{ fontSize: "0.5em" }}>원 </span>
+                </h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h1 className='text-secondary ml-5'>납입금액</h1>
+              </Col>
+              <Col>
+                <h1 className='text-right text-secondary mr-5'>
+                  <span style={{ fontSize: "0.5em" }}>총 </span>
+                  {Math.floor(this.state.amount).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                  <span style={{ fontSize: "0.5em" }}>원 </span>
+                </h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h3 className='text-secondary ml-5'>보증금</h3>
+              </Col>
+              <Col>
+                <h3 className='text-right text-secondary mr-5'>
+                  {Math.floor(this.state.deposit_).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                  <span style={{ fontSize: "0.5em" }}>원 </span>
+                </h3>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h3 className='text-secondary ml-5'>첫 리툴링</h3>
+              </Col>
+              <Col>
+                <h3 className='text-right text-secondary mr-5'>
+                  {Math.floor(this.state.retooling).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                  <span style={{ fontSize: "0.5em" }}>원 </span>
+                </h3>
+              </Col>
+            </Row>
+          </section>
         </main>
-        <SimpleFooter/>
+        <SimpleFooter />
       </>
     );
   }
