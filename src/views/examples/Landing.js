@@ -55,7 +55,7 @@ class Landing extends React.Component {
                       
                       </h1>
                       <p className="lead text-white">
-                        채워도 되고 비워도 되고 아몰랑~~
+                        내용
                       </p>
                       
                     </Col>
