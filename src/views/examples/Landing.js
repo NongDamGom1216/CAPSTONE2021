@@ -2,6 +2,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
+// import { UncontrolledAlert } from "reactstrap";
 
 // reactstrap components
 import {
@@ -162,6 +163,7 @@ class Landing extends React.Component {
               </Card>
             </Container>
           </section>
+         
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
