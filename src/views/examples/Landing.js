@@ -42,7 +42,7 @@ class Landing extends React.Component {
         <main ref="main">
           <div className="position-relative">
             {/* shape Hero */}
-            <section className="section section-lg section-shaped pb-250">
+            <section className="section section-lg section-shaped pb-200">
               <div className="shape shape-style-1 shape-primary">
               
               </div>
@@ -60,19 +60,7 @@ class Landing extends React.Component {
                   </Row>
                 </div>
               </Container>
-              {/* SVG separator */}
-              <div className="separator separator-bottom separator-skew">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="none"
-                  version="1.1"
-                  viewBox="0 0 2560 100"
-                  x="0"
-                  y="0"
-                >
-                  
-                </svg>
-              </div>
+              
             </section>
             {/* 1st Hero Variation */}
           </div>
