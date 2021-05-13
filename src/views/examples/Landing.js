@@ -132,27 +132,47 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg pt-0">
+        
+          <section className="section section-lg mt-3 ml-5 mr-5 pt-5 ">
             <Container>
-              <Card className="bg-gradient-warning shadow-lg border-0">
+              <Card className="bg-gradient-neutral shadow-lg">
                 <div className="p-5">
                   <Row className="align-items-center">
                     <Col lg="10">
-                      <h3 className="text-white">
-                        렌탈 서비스 신청 방법
-                      </h3>
-                      <p className="lead text-white mt-1">
-                        자세한 신청 방법은 ~~으로 문의
-                      </p>
-                      <p className="lead text-white mt-1">
-                        중요한 내용
-                      </p>
+                      <h2>
+                        렌탈 서비스 매뉴얼 안내
+                      </h2>
+                      <p>기업의 자금 부담을 덜어주기 위해 검사구를 빌려주는 서비스<br></br>
+                      (필요하면 무언가 더 설명)</p>
+                      <table className="table-white">
+                        <tr height="10"></tr>
+                        <tr height="35">
+			               	    <th width="160">렌탈기간</th><td>최소 12개월 ~ 최대 60개월</td>
+		              	    </tr>
+                        <tr height="35">
+			                  	<th>월 렌탈비</th><td>제품 가격 / 렌탈기간(개월)</td>
+		            	      </tr>
+		              	    <tr height="35">
+			                  	<th>보증금</th><td>제품 가격의 10% ~ 30% 중 선택</td>
+		            	      </tr>
+		            	      <tr height="35">
+		          	  	      <th>렌탈료 납입</th><td>은행을 통한 거래 방식</td>
+		            	      </tr>
+		            	      <tr height="35">
+			                  	<th>렌탈기간 종료</th><td>보증금 반환 후 렌탈제품 무상양도</td>
+			                  </tr>
+			                  <tr height="60">
+		            	  	    <th>기타사항</th><td>
+                            1년마다 첫 Retooling 금액 30% 할인 제공<br></br>
+                            계약 중도파기시 보증금 회수 및 별도 위약금 청구, 물건 회수
+                          </td>
+		            	      </tr>
+	              	    </table>
                     </Col>
-                    
                   </Row>
                 </div>
               </Card>
-            </Container>
+            </Container>  
           </section>
          
           <section className="section section-lg bg-gradient-default ">
