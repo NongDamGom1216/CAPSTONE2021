@@ -14,7 +14,8 @@ import {
   TabContent,
   TabPane,
   Row,
-  Col
+  Col,
+  Container
 } from "reactstrap";
 
 class TabsSection extends React.Component {
@@ -31,9 +32,12 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
-        <h1 className="text-default mt-lg mb-5">
+        
+        
+          <h1 className="text-default mt-lg mb-5">
           <span>About us</span>
-        </h1>
+          </h1>
+        <Container>
         <Row className="justify-content-center">
           <Col lg="6">
            
@@ -46,7 +50,11 @@ class TabsSection extends React.Component {
               >
                 <NavItem>
                 <Button className="btn-1 btn-neutral ml-1" size="lg" color="default" type="button">
-                <h3 className="text-primary font-weight-bold mb-2"> Rental Manual</h3>
+                
+                <h3 className="text-primary font-weight-bold mb-2"> 
+                <span className="btn-inner--icon mr-1">
+                      <i className="ni ni-single-copy-04" />
+                </span>&nbsp;Rental Manual</h3>
                 </Button>
                 </NavItem>
 
@@ -56,17 +64,13 @@ class TabsSection extends React.Component {
               <CardBody>
                 <TabContent activeTab={"iconTabs" + this.state.iconTabs}>
                   <TabPane tabId="iconTabs1">
-                    <p className="display-3 description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                      cleanse. Mustache cliche tempor, williamsburg carles vegan
-                      helvetica. Reprehenderit butcher retro keffiyeh
-                      dreamcatcher synth.
+                  
+                    <p className="display-3 lead text-default font-weight-bold">
+                    <i className="ni ni-check-bold" />&nbsp;
+                    한 눈에 확인할 수 있습니다.
                     </p>
-                    <p className="display-3 description">
-                      Raw denim you probably haven't heard of them jean shorts
-                      Austin. Nesciunt tofu stumptown aliqua, retro synth master
-                      cleanse.
+                    <p className="display-3 lead text-default font-weight-bold">
+                      이것이 매뉴얼이다
                     </p>
                   </TabPane>
                  
@@ -86,7 +90,9 @@ class TabsSection extends React.Component {
               >
                 <NavItem>
                 <Button className="btn-1 btn-neutral ml-1" size="lg" color="default" type="button">
-                <h3 className="text-primary font-weight-bold mb-2">Simulation page</h3>
+                <h3 className="text-primary font-weight-bold mb-2"><span className="btn-inner--icon mr-1">
+                      <i className="ni ni-single-copy-04" />
+                </span>&nbsp;Simulation page</h3>
                 </Button>
                 </NavItem>
 
@@ -96,11 +102,13 @@ class TabsSection extends React.Component {
               <CardBody>
                 <TabContent activeTab={"plainTabs" + this.state.plainTabs}>
                   <TabPane tabId="plainTabs1">
+                    
                     <p className="display-3 lead text-default font-weight-bold">
-                      저렴한 가격으로 독일 기술을 경험해보십시오
+                    <i className="ni ni-check-bold" />&nbsp;
+                      저렴한 가격으로 독일 기술을 경험
                     </p>
-                    <p className="display-3 lead">
-                      부담되지 않는 가격
+                    <p className="display-3 lead text-default font-weight-bold">
+                      부담되지 않는 가격으로 
                     </p>
                   </TabPane>
                   
@@ -110,7 +118,12 @@ class TabsSection extends React.Component {
             </Card>
           </Col>
         </Row>
+        </Container>
+        
+       
       </>
+     
+
     );
   }
 }

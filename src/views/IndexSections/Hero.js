@@ -19,11 +19,11 @@ class Hero extends React.Component {
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="10">
 
-                      <h1 className = "font-italic text-white text-underline"> 
+                      <h1 className = "font-italic text-white"> 
                         Rental Manual & Simulation
                         </h1>
                       <h1 className="text-white"> <strong class ="em">
-                        provide
+                        CUBE LAB
                         </strong></h1>
                   </Col>
                   </Row>

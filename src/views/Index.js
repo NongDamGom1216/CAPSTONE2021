@@ -7,7 +7,8 @@ import { Container, Row } from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-
+import "assets/vendor/font-awesome/css/font-awesome.min.css";
+import "assets/vendor/nucleo/css/nucleo.css";
 // index page sections
 import Hero from "./IndexSections/Hero.js";
 

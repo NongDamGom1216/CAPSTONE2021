@@ -120,6 +120,7 @@ class BasicElements extends React.Component {
                 <Button className="btn-1" color="primary" outline type="button">
                   Outline-primary
                 </Button>
+
                 <Button
                   className="btn-1 ml-1"
                   color="info"
@@ -128,6 +129,7 @@ class BasicElements extends React.Component {
                 >
                   Outline-info
                 </Button>
+                
                 <Button
                   className="btn-1 ml-1"
                   color="success"
