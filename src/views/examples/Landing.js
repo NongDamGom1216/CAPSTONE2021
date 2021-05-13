@@ -98,31 +98,34 @@ class Landing extends React.Component {
                         렌탈 서비스란?
                       </h4>
                       <p className="lead text-italic text-white">
-                        사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스
+                        -사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스
                       </p>
                       <p className="lead text-italic text-white">
-                        리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음
+                        -리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음
                       </p>
                       <p className="lead text-italic text-white">
-                        사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도
+                        -사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도
                       </p>
                     </blockquote>
                   </Card>
                 </Col>
                 <Col md="5">
                   <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                      <i className="ni ni-settings" />
+                    <div className="icon icon-lg icon-shape icon-shape-bg-gradient-blue shadow rounded-circle mb-5">
+                      <i className="ni ni-like-2" />
                     </div>
                     <h2>렌탈 서비스의 장점</h2>
                     <p>
                       저렴한 초기금액과 월 분할 납입 방식으로 WITTE 사의 ALUFIX/MEGALU 검사구 제품을 이용 가능
                     </p>
                     <p>
-                      Retooling 서비스를 통해, 생산 제품이 바뀌어도 새로 구매할 일 없이 교체 가능
+                      부품들을 조립해서 제작하는 자사 제품의 특징 상 Retooling 서비스를 통해, 생산 제품이 바뀌어도 검사구를 새로 구매할 일 없이 재조립 가능
                     </p>
                     <p>
-                      1년마다 첫 Retooling 금액 30% 할인 제공 (48개월시 최대 4회 할인 적용)
+                      1년마다 첫 Retooling 금액 30% 할인 제공 (48개월 최대 4회 할인 적용 가능)
+                    </p>
+                    <p>
+                      렌탈 기간 종료시 제품은 무상 양도되지만, Retooling 서비스는 이후에도 신청 가능
                     </p>
                   </div>
                 </Col>
@@ -152,48 +155,65 @@ class Landing extends React.Component {
             </Container>
           </section>
          
-          <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
+          <section className="section section-lg bg-gradient-default ">
+            <Container className="pt-lg pb-10">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
+                  <h2 className="display-3 text-white">신청 방법</h2>
                   <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                    머시기 저시기 내용 적인 내용 머시기(빼도될듯)
                   </p>
                 </Col>
               </Row>
               <Row className="row-grid mt-5">
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
+                    <i className="ni ni-button-play text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
+                  <h5 className="text-white mt-3">Step 1</h5>
+                  <p className="lead text-white mt-3">
+                    매뉴얼 확인 및 시뮬레이션
+                  </p>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    렌탈 매뉴얼을 확인 후
+                    시뮬레이션 페이지를 통해
+                    대략적인 비용 계산
                   </p>
                 </Col>
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
+                    <i className="ni ni-credit-card text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
+                  <h5 className="text-white mt-3">Step 2</h5>
+                  <p className="lead text-white mt-3">
+                    자사 상담 및 계약
+                  </p>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    대략적인 비용 확인 후
+                    자사와 상담을 통해
+                    세부적인 계약 내용 확정
+                  </p>
+                  <p className="test-white">
+                    보증금이나 수수료 등은
+                    계약 기간이나 금액에 따라 책정
                   </p>
                 </Col>
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
+                    <i className="ni ni-delivery-fast text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
+                  <h5 className="text-white mt-3">Step 3</h5>
+                  <p className="lead text-white mt-3">
+                    제품 설계 & 조립 제공
+                  </p>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    계약 이후
+                    각자의 규격에 따른
+                    맞춤 검사구 설계&조립 제공
+                  </p>
+                  <p className="test-white">
+                    이후에는 리툴링 서비스 신청을 통해
+                    재설계 가능
                   </p>
                 </Col>
               </Row>
