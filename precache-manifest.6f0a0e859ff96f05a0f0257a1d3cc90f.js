@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a2ab2bde7607bc2888fc5379fda2382",
+    "revision": "d5d3ce3c0664b4d08770cc2238bf500c",
     "url": "/CAPSTONE2021/index.html"
   },
   {
-    "revision": "0d82fe58f380c965a887",
-    "url": "/CAPSTONE2021/static/css/main.49474c04.chunk.css"
+    "revision": "cc8f47620d6e5caea0d9",
+    "url": "/CAPSTONE2021/static/css/main.5bdfea5d.chunk.css"
   },
   {
-    "revision": "de01a2ca77fc133bed19",
-    "url": "/CAPSTONE2021/static/js/2.c72c78c5.chunk.js"
+    "revision": "2ea440059771d60a7b07",
+    "url": "/CAPSTONE2021/static/js/2.e31de9bc.chunk.js"
   },
   {
     "revision": "402769e0fde7682650babf6b5720df16",
-    "url": "/CAPSTONE2021/static/js/2.c72c78c5.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/2.e31de9bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d82fe58f380c965a887",
-    "url": "/CAPSTONE2021/static/js/main.62acf59a.chunk.js"
+    "revision": "cc8f47620d6e5caea0d9",
+    "url": "/CAPSTONE2021/static/js/main.488e5558.chunk.js"
   },
   {
     "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/CAPSTONE2021/static/js/main.62acf59a.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/main.488e5558.chunk.js.LICENSE.txt"
   },
   {
     "revision": "5422e25e33cce68a0c63",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "12aa260f3e0993e28776705fcb30a429",
     "url": "/CAPSTONE2021/static/media/alufix8.12aa260f.jpg"
+  },
+  {
+    "revision": "67cc43401f2984d39247621564b09222",
+    "url": "/CAPSTONE2021/static/media/banner3.67cc4340.jpg"
   },
   {
     "revision": "a17a72ec7eed5c85d2e633e0dfd81dc3",
@@ -100,16 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/img3.fd5a7359.PNG"
   },
   {
+    "revision": "635230cc669e8e769a477174a232dfaf",
+    "url": "/CAPSTONE2021/static/media/keyboard2.635230cc.jpg"
+  },
+  {
     "revision": "0ec264785c9b6efbed2651d84105f436",
     "url": "/CAPSTONE2021/static/media/landing.0ec26478.jpg"
-  },
-  {
-    "revision": "a3abdc0c0b3b7e93a262a4d1e08ae808",
-    "url": "/CAPSTONE2021/static/media/main10.a3abdc0c.jpg"
-  },
-  {
-    "revision": "bf97de2ac95c7b33dec8d3bb649fcd02",
-    "url": "/CAPSTONE2021/static/media/main2.bf97de2a.jpg"
   },
   {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
