@@ -18,29 +18,35 @@
 import React from "react";
 
 // reactstrap components
-import { Row, Col } from "reactstrap";
+import {Button, Row, Col } from "reactstrap";
 
 class Typography extends React.Component {
   render() {
     return (
       <>
-        <h2 className="mt-lg mb-5">
+        <h1 className="text-default mt-lg mb-5">
           <span>About us</span>
-        </h2>
-        <h3 className="h4 text-success font-weight-bold">Rental Manual</h3>
+        </h1>
+        <Button className="btn-1 ml-1" size="lg" color="primary" outline type="button">
+          Rental Manual
+        </Button>
+
         <Row className="py-3 align-items-center">
           
           <Col sm="9">
             <h4 className="mb-0">렌탈 매뉴얼을 제공합니다.<br></br>
             소개 말<br></br>
             </h4>
+
+           
           </Col>
         </Row>
         
-        {/* Display titles */}
-        <h3 className="h4 text-success font-weight-bold mt-md">
+        <div className = "mb-3 mt-5">
+        <Button className="btn-1 ml-1" size = "lg" color="primary" outline type="button">
           Simulation page
-        </h3>
+        </Button>
+        
         <Row className="py-3 align-items-center">
           
           <Col sm="9">
@@ -50,41 +56,10 @@ class Typography extends React.Component {
             </h4>
           </Col>
         </Row>
+        </div>
 
-        <h3 className="h4 text-success font-weight-bold mt-md">필요하면 사용</h3>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <h3 className="text-uppercase text-muted font-weight-bold">
-              메뉴1
-            </h3>
-          </Col>
-          <Col sm="9">
-            <p className="lead">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers. I understand
-              culture. I am the nucleus. I think that’s a responsibility that I
-              have, to push possibilities, to show people, this is the level
-              that things could be at.
-            </p>
-          </Col>
-        </Row>
-        <Row className="py-3 align-items-center">
-          <Col sm="3">
-            <h3 className="text-uppercase text-muted font-weight-bold">
-              메뉴2
-            </h3>
-          </Col>
-          <Col sm="9">
-            <p className="lead">
-              I will be the leader of a company that ends up being worth
-              billions of dollars, because I got the answers. I understand
-              culture. I am the nucleus. I think that’s a responsibility that I
-              have, to push possibilities, to show people, this is the level
-              that things could be at.
-            </p>
-          </Col>
-        </Row>
-        
+        <br></br>
+        <br></br>
         
       </>
     );

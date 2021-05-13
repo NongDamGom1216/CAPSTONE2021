@@ -59,7 +59,7 @@ class Carousel extends React.Component {
   render() {
     return (
       <>
-        <section className="section section-shaped">
+        <section className="section section-shaped mt-lg mb-5">
           <div className="shape shape-style-1 shape-light">
             
           </div>

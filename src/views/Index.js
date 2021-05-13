@@ -13,7 +13,7 @@ import Hero from "./IndexSections/Hero.js";
 
 import Typography from "./IndexSections/Typography.js";
 import Modals from "./IndexSections/Modals.js";
-
+import Tabs from "./IndexSections/Tabs.js";
 import Carousel from "./IndexSections/Carousel.js";
 import Icons from "./IndexSections/Icons.js";
 import Login from "./IndexSections/Login.js";
@@ -32,7 +32,8 @@ class Index extends React.Component {
         <main ref="main">
           <Hero />
           <Container>
-              <Typography />
+              <Tabs />
+             
           </Container>
           <Carousel />
 
