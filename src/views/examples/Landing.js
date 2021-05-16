@@ -52,13 +52,13 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
+                        <br>
+                        </br>
                         Rental Service Manual{" "}
                       
                       </h1>
 
-                      <p className="lead text-white">
-                        내용
-                      </p>
+                    
                     </Col>
                   </Row>
                 </div>
@@ -185,7 +185,7 @@ class Landing extends React.Component {
                   </p>
                 </Col>
               </Row>
-              <Row className="row-grid mt-5">
+              <Row className="row-grid mt-5 justify-content-center">
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-button-play text-primary" />

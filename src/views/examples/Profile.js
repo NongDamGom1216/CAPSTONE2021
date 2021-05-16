@@ -83,7 +83,7 @@ render() {
               <div className="col px-0">
                 <Row>
                   <Col lg="6">
-                    <h1 className="display-3 text-white">Rental Service Simulation{" "}</h1>
+                    <h1 className="display-3 text-white"><br></br>Rental Service Simulation{" "}</h1>
                   </Col>
                 </Row>
               </div>

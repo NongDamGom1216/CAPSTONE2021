@@ -59,7 +59,7 @@ class Carousel extends React.Component {
   render() {
     return (
       <>
-        <section className="section section-shaped mt-lg mb-5">
+        <section className="section section-shaped mt-lg ">
           <div className="shape shape-style-1 shape-light">
             
           </div>
@@ -90,19 +90,7 @@ class Carousel extends React.Component {
               </Col>
             </Row>
           </Container>
-          {/* SVG separator */}
-          <div className="separator separator-bottom separator-skew">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              
-            </svg>
-          </div>
+          
         </section>
       </>
     );
