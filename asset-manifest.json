@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/CAPSTONE2021/static/css/main.5bdfea5d.chunk.css",
-    "main.js": "/CAPSTONE2021/static/js/main.488e5558.chunk.js",
-    "main.js.map": "/CAPSTONE2021/static/js/main.488e5558.chunk.js.map",
+    "main.css": "/CAPSTONE2021/static/css/main.1e35ec4a.chunk.css",
+    "main.js": "/CAPSTONE2021/static/js/main.23026859.chunk.js",
+    "main.js.map": "/CAPSTONE2021/static/js/main.23026859.chunk.js.map",
     "runtime-main.js": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js",
     "runtime-main.js.map": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js.map",
-    "static/js/2.e31de9bc.chunk.js": "/CAPSTONE2021/static/js/2.e31de9bc.chunk.js",
-    "static/js/2.e31de9bc.chunk.js.map": "/CAPSTONE2021/static/js/2.e31de9bc.chunk.js.map",
+    "static/js/2.d8c35b75.chunk.js": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js",
+    "static/js/2.d8c35b75.chunk.js.map": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js.map",
     "index.html": "/CAPSTONE2021/index.html",
-    "precache-manifest.6f0a0e859ff96f05a0f0257a1d3cc90f.js": "/CAPSTONE2021/precache-manifest.6f0a0e859ff96f05a0f0257a1d3cc90f.js",
+    "precache-manifest.e58a1c88b696f479ea644e23db81f811.js": "/CAPSTONE2021/precache-manifest.e58a1c88b696f479ea644e23db81f811.js",
     "service-worker.js": "/CAPSTONE2021/service-worker.js",
-    "static/css/main.5bdfea5d.chunk.css.map": "/CAPSTONE2021/static/css/main.5bdfea5d.chunk.css.map",
-    "static/js/2.e31de9bc.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.e31de9bc.chunk.js.LICENSE.txt",
-    "static/js/main.488e5558.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/main.488e5558.chunk.js.LICENSE.txt",
+    "static/css/main.1e35ec4a.chunk.css.map": "/CAPSTONE2021/static/css/main.1e35ec4a.chunk.css.map",
+    "static/js/2.d8c35b75.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js.LICENSE.txt",
     "static/media/alufix1.jpg": "/CAPSTONE2021/static/media/alufix1.deac8919.jpg",
     "static/media/alufix2.jpg": "/CAPSTONE2021/static/media/alufix2.a1ee036a.jpg",
     "static/media/alufix3.jpg": "/CAPSTONE2021/static/media/alufix3.6ef96bc7.jpg",
@@ -21,20 +20,16 @@
     "static/media/alufix6.jpg": "/CAPSTONE2021/static/media/alufix6.5a5f7aa5.jpg",
     "static/media/alufix7.jpg": "/CAPSTONE2021/static/media/alufix7.43799c4d.jpg",
     "static/media/alufix8.jpg": "/CAPSTONE2021/static/media/alufix8.12aa260f.jpg",
-    "static/media/argon-design-system-react.scss?v1.1.0": "/CAPSTONE2021/static/media/keyboard2.635230cc.jpg",
+    "static/media/argon-design-system-react.scss?v1.1.0": "/CAPSTONE2021/static/media/main100.0dbc40f5.jpg",
     "static/media/font-awesome.min.css": "/CAPSTONE2021/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/github.svg": "/CAPSTONE2021/static/media/github.2e257125.svg",
-    "static/media/google.svg": "/CAPSTONE2021/static/media/google.08ea438e.svg",
     "static/media/img3.PNG": "/CAPSTONE2021/static/media/img3.fd5a7359.PNG",
-    "static/media/landing.jpg": "/CAPSTONE2021/static/media/landing.0ec26478.jpg",
     "static/media/nucleo.css": "/CAPSTONE2021/static/media/nucleo-icons.f82ec6ba.ttf",
-    "static/media/profile.jpg": "/CAPSTONE2021/static/media/profile.278a0d25.jpg",
     "static/media/white.png": "/CAPSTONE2021/static/media/white.d71fae57.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7b03807c.js",
-    "static/js/2.e31de9bc.chunk.js",
-    "static/css/main.5bdfea5d.chunk.css",
-    "static/js/main.488e5558.chunk.js"
+    "static/js/2.d8c35b75.chunk.js",
+    "static/css/main.1e35ec4a.chunk.css",
+    "static/js/main.23026859.chunk.js"
   ]
 }

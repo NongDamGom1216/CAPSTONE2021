@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5d3ce3c0664b4d08770cc2238bf500c",
+    "revision": "a8ae9c369df0b40a98c6b75f70c754c4",
     "url": "/CAPSTONE2021/index.html"
   },
   {
-    "revision": "cc8f47620d6e5caea0d9",
-    "url": "/CAPSTONE2021/static/css/main.5bdfea5d.chunk.css"
+    "revision": "72a7f88c1cdab6d5b8d7",
+    "url": "/CAPSTONE2021/static/css/main.1e35ec4a.chunk.css"
   },
   {
-    "revision": "2ea440059771d60a7b07",
-    "url": "/CAPSTONE2021/static/js/2.e31de9bc.chunk.js"
+    "revision": "a7644f1e7f0133da92bb",
+    "url": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js"
   },
   {
-    "revision": "402769e0fde7682650babf6b5720df16",
-    "url": "/CAPSTONE2021/static/js/2.e31de9bc.chunk.js.LICENSE.txt"
+    "revision": "02b5ba1031b49737f52ee18f47faa38b",
+    "url": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc8f47620d6e5caea0d9",
-    "url": "/CAPSTONE2021/static/js/main.488e5558.chunk.js"
-  },
-  {
-    "revision": "7a6956e196ccd2e4ccc8856708b02847",
-    "url": "/CAPSTONE2021/static/js/main.488e5558.chunk.js.LICENSE.txt"
+    "revision": "72a7f88c1cdab6d5b8d7",
+    "url": "/CAPSTONE2021/static/js/main.23026859.chunk.js"
   },
   {
     "revision": "5422e25e33cce68a0c63",
@@ -60,10 +56,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/alufix8.12aa260f.jpg"
   },
   {
-    "revision": "67cc43401f2984d39247621564b09222",
-    "url": "/CAPSTONE2021/static/media/banner3.67cc4340.jpg"
-  },
-  {
     "revision": "a17a72ec7eed5c85d2e633e0dfd81dc3",
     "url": "/CAPSTONE2021/static/media/cool-background.a17a72ec.png"
   },
@@ -92,14 +84,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "2e2571256140872fb7e4f246ea786669",
-    "url": "/CAPSTONE2021/static/media/github.2e257125.svg"
-  },
-  {
-    "revision": "08ea438ed3b14e63dd54516d3768e3d3",
-    "url": "/CAPSTONE2021/static/media/google.08ea438e.svg"
-  },
-  {
     "revision": "fd5a7359c7e16f55a5f98563d4bcbaba",
     "url": "/CAPSTONE2021/static/media/img3.fd5a7359.PNG"
   },
@@ -108,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/keyboard2.635230cc.jpg"
   },
   {
-    "revision": "0ec264785c9b6efbed2651d84105f436",
-    "url": "/CAPSTONE2021/static/media/landing.0ec26478.jpg"
+    "revision": "0dbc40f58d686c5cc2e34941a5ce316d",
+    "url": "/CAPSTONE2021/static/media/main100.0dbc40f5.jpg"
   },
   {
     "revision": "2569aaea6eaaf8cd210db7f2fa016743",
@@ -130,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
     "url": "/CAPSTONE2021/static/media/nucleo-icons.f82ec6ba.ttf"
-  },
-  {
-    "revision": "278a0d250cc46de3a4f65a0791479e71",
-    "url": "/CAPSTONE2021/static/media/profile.278a0d25.jpg"
   },
   {
     "revision": "d71fae5734332fae79fe5020a79eedae",
