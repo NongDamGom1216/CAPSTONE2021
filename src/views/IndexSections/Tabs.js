@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 
@@ -49,13 +50,15 @@ class TabsSection extends React.Component {
                 role="tablist"
               >
                 <NavItem>
-                <Button className="btn-1 btn-neutral ml-1" size="lg" color="default" type="button">
-                
+                  
+                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/landing-page" tag={Link}>
+            
                 <h3 className="text-primary font-weight-bold mb-2"> 
-                <span className="btn-inner--icon mr-1">
+                <span className="btn-inner--icon mr-1 nav-link-inner--text">
                       <i className="ni ni-single-copy-04" />
                 </span>&nbsp;Rental Manual</h3>
                 </Button>
+                
                 </NavItem>
 
               </Nav>
@@ -89,7 +92,7 @@ class TabsSection extends React.Component {
                 role="tablist"
               >
                 <NavItem>
-                <Button className="btn-1 btn-neutral ml-1" size="lg" color="default" type="button">
+                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/profile-page" tag={Link}>
                 <h3 className="text-primary font-weight-bold mb-2"><span className="btn-inner--icon mr-1">
                       <i className="ni ni-single-copy-04" />
                 </span>&nbsp;Simulation page</h3>
