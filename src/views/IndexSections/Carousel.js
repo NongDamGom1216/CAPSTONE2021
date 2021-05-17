@@ -69,10 +69,10 @@ class Carousel extends React.Component {
                 <h1 className="h10 text-secondary font-weight-bold">
                   제품 소개
                 </h1>
-                <br></br>
-                <h5 className="h10 text-secondary font-weight-light">
-                  ALUFIX의 최신 기술을 경험해 보십시오.
-                </h5>
+                
+                <h4 className="h10 text-secondary font-weight-light">
+                Creative value for customers!
+                </h4>
                 
                 <Button
                   className="btn-black mt-4"

@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
-import classnames from "classnames";
+
 
 // reactstrap components
 import {
@@ -33,9 +33,7 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
-        
-        
-          <h1 className="text-default mt-lg mb-5">
+          <h1 className="text-default mt-lg-6 mb-4 font-weight-bold">
           <span>About us</span>
           </h1>
         <Container>
@@ -67,13 +65,13 @@ class TabsSection extends React.Component {
               <CardBody>
                 <TabContent activeTab={"iconTabs" + this.state.iconTabs}>
                   <TabPane tabId="iconTabs1">
-                  
                     <p className="display-3 lead text-default font-weight-bold">
                     <i className="ni ni-check-bold" />&nbsp;
-                    한 눈에 확인할 수 있습니다.
+                    국내 최초 검사구 렌탈 서비스를 제공합니다.
                     </p>
                     <p className="display-3 lead text-default font-weight-bold">
-                      이것이 매뉴얼이다
+                    <i className="ni ni-check-bold" />&nbsp;
+                    큐브랩 만의 차별화된 혜택을 경험해보세요.
                     </p>
                   </TabPane>
                  
@@ -105,17 +103,16 @@ class TabsSection extends React.Component {
               <CardBody>
                 <TabContent activeTab={"plainTabs" + this.state.plainTabs}>
                   <TabPane tabId="plainTabs1">
-                    
                     <p className="display-3 lead text-default font-weight-bold">
                     <i className="ni ni-check-bold" />&nbsp;
-                      저렴한 가격으로 독일 기술을 경험
+                    필요한 제품의 렌탈료를 지금 확인하세요.
                     </p>
                     <p className="display-3 lead text-default font-weight-bold">
-                      부담되지 않는 가격으로 
+                    <i className="ni ni-check-bold" />&nbsp;
+                    부담되지 않는 가격으로 제공합니다.
                     </p>
                   </TabPane>
                   
-                 
                 </TabContent>
               </CardBody>
             </Card>
