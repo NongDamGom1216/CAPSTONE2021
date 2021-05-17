@@ -139,15 +139,14 @@ class Landing extends React.Component {
                 <div className="p-5">
                   <Row className="align-items-center">
                     <Col lg="10">
-                      <h2>
-                        렌탈 서비스 매뉴얼 안내
+                      <h2 className="font-weight-bold">
+                      <i className="fa fa-file-text-o" />  &nbsp;렌탈 서비스 매뉴얼
                       </h2>
-                      <p>기업의 자금 부담을 덜어주기 위해 검사구를 빌려주는 서비스<br></br>
-                      (필요하면 무언가 더 설명)</p>
+                      <p>기업의 초기 자금 부담을 덜어주기 위해 검사구를 빌려주는 서비스</p>
                       <table className="table-white">
                         <tr height="10"></tr>
                         <tr height="35">
-			               	    <th width="160">렌탈기간</th><td>최소 12개월 ~ 최대 60개월</td>
+			               	    <th width="160">렌탈기간</th><td> 12개월 단위로 서비스 신청 (최소 12개월 ~ 최대 60개월)</td>
 		              	    </tr>
                         <tr height="35">
 			                  	<th>월 렌탈비</th><td>제품 가격 / 렌탈기간(개월)</td>
@@ -155,15 +154,18 @@ class Landing extends React.Component {
 		              	    <tr height="35">
 			                  	<th>보증금</th><td>제품 가격의 10% ~ 30% 중 선택</td>
 		            	      </tr>
-		            	      <tr height="35">
-		          	  	      <th>렌탈료 납입</th><td>은행을 통한 거래 방식</td>
+                        <tr height="35">
+			                  	<th>렌탈 수수료율</th><td>보증금의 차등에 따라 연 5% ~ 10%</td>
 		            	      </tr>
 		            	      <tr height="35">
-			                  	<th>렌탈기간 종료</th><td>보증금 반환 후 렌탈제품 무상양도</td>
+		          	  	      <th>렌탈료 납입</th><td>은행을 통한 원리금균등상환 방식</td>
+		            	      </tr>
+		            	      <tr height="35">
+			                  	<th>렌탈기간 종료</th><td>보증금 반환 및 렌탈제품 무상양도</td>
 			                  </tr>
 			                  <tr height="60">
 		            	  	    <th>기타사항</th><td>
-                            1년마다 첫 Retooling 금액 30% 할인 제공<br></br>
+                            1년마다 첫 Retooling 금액 30% 할인 제공(예, 48개월 시 최대 4회)<br></br>
                             계약 중도파기시 보증금 회수 및 별도 위약금 청구, 물건 회수
                           </td>
 		            	      </tr>
