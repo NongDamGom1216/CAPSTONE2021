@@ -5,19 +5,17 @@ import { Container, Row } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/vendor/nucleo/css/nucleo.css";
 // index page sections
 import Hero from "./IndexSections/Hero.js";
 
-import Typography from "./IndexSections/Typography.js";
-import Modals from "./IndexSections/Modals.js";
+
 import Tabs from "./IndexSections/Tabs.js";
 import Carousel from "./IndexSections/Carousel.js";
-import Icons from "./IndexSections/Icons.js";
-import Login from "./IndexSections/Login.js";
+
 
 
 class Index extends React.Component {
