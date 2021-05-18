@@ -57,8 +57,8 @@ class Landing extends React.Component {
             {/* 1st Hero Variation */}
           </div>
           <section className="section bg-secondary">
-            <Container>
-              <Row className="row-grid align-items-center">
+            <Container >
+              <Row className="row-grid align-items-centor">
                 <Col md="6">
                   <Card className="bg-default shadow border-0">
                     <CardImg
@@ -87,34 +87,37 @@ class Landing extends React.Component {
                         렌탈 서비스란?
                       </h4>
                       <p className="lead text-italic text-white">
+                        <i className="ni ni-bold-right"/> &nbsp;
                         사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스
                       </p>
                       <p className="lead text-italic text-white">
+                        <i className="ni ni-bold-right"/> &nbsp;
                         리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음
                       </p>
                       <p className="lead text-italic text-white">
+                        <i className="ni ni-bold-right"/> &nbsp;
                         사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도
                       </p>
                     </blockquote>
                   </Card>
                 </Col>
                 <Col md="5">
-                  <div className="pl-md-5">
+                  <div className="pl-md-4">
                     <div className="icon icon-lg icon-shape icon-shape-bg-gradient-blue shadow rounded-circle mb-5">
                       <i className="ni ni-like-2" />
                     </div>
                     <h1 className="font-weight-bold">렌탈 서비스의 장점</h1>
                     <p className="lead text">
-                      저렴한 초기금액과 월 분할 납입 방식으로 WITTE 사의 ALUFIX/MEGALU 검사구 제품을 이용 가능
+                      <mark>저렴한 초기금액</mark>과 월 분할 납입 방식으로 WITTE 사의 ALUFIX/MEGALU 검사구 제품을 이용 가능
                     </p>
                     <p className="lead text">
-                      부품들을 조립해서 제작하는 자사 제품의 특징 상 Retooling 서비스를 통해, 생산 제품이 바뀌어도 검사구를 새로 구매할 일 없이 재조립 가능
+                      부품들을 조립해서 제작하는 자사 제품의 특징 상 Retooling 서비스를 통해, 생산 제품이 바뀌어도 검사구를 <mark>새로 구매할 일 없이 재조립 가능</mark>
                     </p>
                     <p className="lead text">
-                      1년마다 첫 Retooling 금액 30% 할인 제공 (48개월 최대 4회 할인 적용 가능)
+                      <mark>1년마다 첫 Retooling 금액 30% 할인 제공</mark> (48개월 최대 4회 할인 적용 가능)
                     </p>
                     <p className="lead text">
-                      렌탈 기간 종료시 제품은 무상 양도되지만, Retooling 서비스는 이후에도 신청 가능
+                      렌탈 기간 종료시 제품은 무상 양도되지만 Retooling 서비스는 이후에도 신청 가능
                     </p>
                   </div>
                 </Col>
