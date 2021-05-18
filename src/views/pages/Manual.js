@@ -101,23 +101,23 @@ class Manual extends React.Component {
                     </blockquote>
                   </Card>
                 </Col>
-                <Col md="6">
-                  <div className="pl-md-4">
+                <Col md="5">
+                  <div className="pl-md-3">
                     <div className="icon icon-lg icon-shape icon-shape-bg-gradient-blue shadow rounded-circle mb-5">
                       <i className="ni ni-like-2" />
                     </div>
                     <h1 className="font-weight-bold">렌탈 서비스의 장점</h1>
                     <p className="lead text">
-                      <mark>저렴한 초기금액</mark>과 월 분할 납입 방식으로<br/> WITTE 사의 ALUFIX/MEGALU 검사구 제품을<br/> 이용 가능
+                      <mark>저렴한 초기금액</mark>과 월 분할 납입 방식으로 WITTE 사의 ALUFIX/MEGALU 검사구 제품을 이용 가능
                     </p>
                     <p className="lead text">
-                      부품들을 조립해서 제작하는 자사 제품의 특징상 Retooling 서비스를 통해, 생산 제품이 바뀌어도<br/> 검사구를 <mark>새로 구매할 일 없이 </mark>재조립 가능
+                      부품들을 조립해서 제작하는 자사 제품의<br/> 특징상 Retooling 서비스를 통해, 생산 제품이 바뀌어도 검사구를 <mark>새로 구매할 일 없이 </mark>재조립 가능
                     </p>
                     <p className="lead text">
-                      <mark>1년마다 첫 Retooling 금액 30% 할인 제공</mark> <br/>(48개월 최대 4회 할인 적용 가능)
+                      <mark>1년마다 첫 Retooling 금액 30% 할인 제공</mark>(48개월 최대 4회 할인 적용 가능)
                     </p>
                     <p className="lead text">
-                      렌탈 기간 종료시 제품은 무상 양도되지만<br/> Retooling 서비스는 이후에도 신청 가능
+                      렌탈 기간 종료시 제품은 무상 양도되지만 Retooling 서비스는 이후에도 신청 가능
                     </p>
                   </div>
                 </Col>
