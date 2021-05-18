@@ -49,7 +49,7 @@ class TabsSection extends React.Component {
               >
                 <NavItem>
                   
-                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/manualpage" tag={Link}>
+                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/manual-page" tag={Link}>
             
                 <h3 className="text-primary font-weight-bold mb-2"> 
                 <span className="btn-inner--icon mr-1 nav-link-inner--text">
