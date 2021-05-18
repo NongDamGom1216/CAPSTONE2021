@@ -18,7 +18,7 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 
-class Landing extends React.Component {
+class Manual extends React.Component {
   state = {};
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -238,4 +238,4 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing;
+export default Manual;

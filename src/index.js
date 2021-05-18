@@ -7,9 +7,8 @@ import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
-import Landing from "views/examples/Landing.js";
-
-import Profile from "views/examples/Profile.js";
+import Manual from "views/examples/Manual.js";
+import Profile from "views/examples/Simulation.js";
 
 
 ReactDOM.render(
@@ -17,13 +16,13 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact render={props => <Index {...props} />} />
       <Route
-        path="/landing-page"
+        path="/manual-page"
         exact
-        render={props => <Landing {...props} />}
+        render={props => <Manual {...props} />}
       />
       
       <Route
-        path="/profile-page"
+        path="/simul-page"
         exact
         render={props => <Profile {...props} />}
       />

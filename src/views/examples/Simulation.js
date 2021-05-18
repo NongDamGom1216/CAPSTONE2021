@@ -7,7 +7,7 @@ import { Button, Card, Container, Row, Colm, CardImg, Col, Badge } from "reactst
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
-class Profile extends React.Component {
+class Simulation extends React.Component {
   state = {
     price: '0',
     month: '0',
@@ -73,7 +73,7 @@ class Profile extends React.Component {
     return (
       <>
         <DemoNavbar />
-        <main className="profile-page" ref="main">
+        <main className="simul-page" ref="main">
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section-lg section-shaped pb-200">
@@ -92,8 +92,8 @@ class Profile extends React.Component {
             </section>
           </div>
 
-          <section>
-            <Card className="bg-gradient-default shadow-lg mt-5 ml-9 mr-9 p-3">
+          <section className='bg-secondary pt-6 pb-6'>
+            <Card className="bg-gradient-default shadow-lg ml-9 mr-9 p-3">
               <Col>
                 <h5 className="text-white mt-2 font-weight-bold">
                 <i class="fa fa-exclamation-circle"></i>
@@ -118,9 +118,7 @@ class Profile extends React.Component {
                 </p>
               </Col>
             </Card>
-          </section>
-          <section >
-            <Card className="bg-white shadow-sm mt-7 mb-7 ml-9 mr-9 p-4" style={{ borderColor: '#D8D8D8' }}>
+            <Card className="bg-white shadow-sm mt-7 ml-9 mr-9 p-4" style={{ borderColor: '#D8D8D8' }}>
               <Row className='mb-3 align-items-center'>
                 <Col md='2'>
                   <strong>제품가격(원)</strong>
@@ -291,4 +289,4 @@ class Profile extends React.Component {
   }
 }
 
-export default Profile;
+export default Simulation;

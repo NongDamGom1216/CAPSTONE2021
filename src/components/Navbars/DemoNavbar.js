@@ -82,14 +82,14 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                 <li>
-                  <Link className="nav-link" to = "/landing-page" tag={Link}>
+                  <Link className="nav-link" to = "/manual-page" tag={Link}>
                   <span className="nav-link-inner--text ml-1 display-3 lead">
                     Manual
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-link" to = "/profile-page" tag={Link}>
+                  <Link className="nav-link" to = "/simul-page" tag={Link}>
                   <span className="nav-link-inner--text ml-1 display-3 lead">
                     Simulation
                     </span>

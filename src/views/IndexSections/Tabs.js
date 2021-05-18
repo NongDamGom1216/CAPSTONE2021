@@ -49,7 +49,7 @@ class TabsSection extends React.Component {
               >
                 <NavItem>
                   
-                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/landing-page" tag={Link}>
+                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/manualpage" tag={Link}>
             
                 <h3 className="text-primary font-weight-bold mb-2"> 
                 <span className="btn-inner--icon mr-1 nav-link-inner--text">
@@ -90,7 +90,7 @@ class TabsSection extends React.Component {
                 role="tablist"
               >
                 <NavItem>
-                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/profile-page" tag={Link}>
+                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/simul-page" tag={Link}>
                 <h3 className="text-primary font-weight-bold mb-2"><span className="btn-inner--icon mr-1">
                       <i className="ni ni-single-copy-04" />
                 </span>&nbsp;Simulation page</h3>
