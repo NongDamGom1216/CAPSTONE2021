@@ -87,13 +87,13 @@ class Landing extends React.Component {
                         렌탈 서비스란?
                       </h4>
                       <p className="lead text-italic text-white">
-                        -사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스
+                        사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스
                       </p>
                       <p className="lead text-italic text-white">
-                        -리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음
+                        리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음
                       </p>
                       <p className="lead text-italic text-white">
-                        -사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도
+                        사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도
                       </p>
                     </blockquote>
                   </Card>
@@ -103,17 +103,17 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-bg-gradient-blue shadow rounded-circle mb-5">
                       <i className="ni ni-like-2" />
                     </div>
-                    <h2>렌탈 서비스의 장점</h2>
-                    <p>
+                    <h1 className="font-weight-bold">렌탈 서비스의 장점</h1>
+                    <p className="lead text">
                       저렴한 초기금액과 월 분할 납입 방식으로 WITTE 사의 ALUFIX/MEGALU 검사구 제품을 이용 가능
                     </p>
-                    <p>
+                    <p className="lead text">
                       부품들을 조립해서 제작하는 자사 제품의 특징 상 Retooling 서비스를 통해, 생산 제품이 바뀌어도 검사구를 새로 구매할 일 없이 재조립 가능
                     </p>
-                    <p>
+                    <p className="lead text">
                       1년마다 첫 Retooling 금액 30% 할인 제공 (48개월 최대 4회 할인 적용 가능)
                     </p>
-                    <p>
+                    <p className="lead text">
                       렌탈 기간 종료시 제품은 무상 양도되지만, Retooling 서비스는 이후에도 신청 가능
                     </p>
                   </div>
@@ -165,15 +165,12 @@ class Landing extends React.Component {
               </Card>
             </Container>  
           </section>
-         
-          <section className="section section-lg bg-gradient-default ">
-            <Container className="pt-lg pb-10">
+        
+          <section className="section section-lg  bg-gradient-default ">
+            <Container className="pt-1 pb-1">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">신청 방법</h2>
-                  <p className="lead text-white">
-                    머시기 저시기 내용 적인 내용 머시기(빼도될듯)
-                  </p>
                 </Col>
               </Row>
               <Row className="row-grid mt-5 justify-content-center">
@@ -204,7 +201,7 @@ class Landing extends React.Component {
                     자사와 상담을 통해
                     세부적인 계약 내용 확정
                   </p>
-                  <p className="test-white">
+                  <p className="text-gray">
                     보증금이나 수수료 등은
                     계약 기간이나 금액에 따라 책정
                   </p>
@@ -222,8 +219,8 @@ class Landing extends React.Component {
                     각자의 규격에 따른
                     맞춤 검사구 설계&조립 제공
                   </p>
-                  <p className="test-white">
-                    이후에는 리툴링 서비스 신청을 통해
+                  <p className="text-gray">
+                    이후에는 Retooling 서비스 신청을 통해
                     재설계 가능
                   </p>
                 </Col>
