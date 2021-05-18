@@ -7,8 +7,8 @@ import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
-import Manual from "views/examples/Manual.js";
-import Profile from "views/examples/Simulation.js";
+import Manual from "views/pages/Manual.js";
+import Simulation from "views/pages/Simulation.js";
 
 
 ReactDOM.render(
@@ -24,7 +24,7 @@ ReactDOM.render(
       <Route
         path="/simul-page"
         exact
-        render={props => <Profile {...props} />}
+        render={props => <Simulation {...props} />}
       />
      
       <Redirect to="/" />
