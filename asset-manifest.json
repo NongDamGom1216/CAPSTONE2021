@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/CAPSTONE2021/static/css/main.3066f658.chunk.css",
-    "main.js": "/CAPSTONE2021/static/js/main.a8376394.chunk.js",
-    "main.js.map": "/CAPSTONE2021/static/js/main.a8376394.chunk.js.map",
+    "main.css": "/CAPSTONE2021/static/css/main.fd1d6b44.chunk.css",
+    "main.js": "/CAPSTONE2021/static/js/main.707dc217.chunk.js",
+    "main.js.map": "/CAPSTONE2021/static/js/main.707dc217.chunk.js.map",
     "runtime-main.js": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js",
     "runtime-main.js.map": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js.map",
-    "static/js/2.d8c35b75.chunk.js": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js",
-    "static/js/2.d8c35b75.chunk.js.map": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js.map",
+    "static/js/2.33b990ee.chunk.js": "/CAPSTONE2021/static/js/2.33b990ee.chunk.js",
+    "static/js/2.33b990ee.chunk.js.map": "/CAPSTONE2021/static/js/2.33b990ee.chunk.js.map",
     "index.html": "/CAPSTONE2021/index.html",
-    "precache-manifest.814aad2fa24e6f7b5089b2e439aedbd2.js": "/CAPSTONE2021/precache-manifest.814aad2fa24e6f7b5089b2e439aedbd2.js",
+    "precache-manifest.9ad03ec307b4d4db294813c61f5c99e4.js": "/CAPSTONE2021/precache-manifest.9ad03ec307b4d4db294813c61f5c99e4.js",
     "service-worker.js": "/CAPSTONE2021/service-worker.js",
-    "static/css/main.3066f658.chunk.css.map": "/CAPSTONE2021/static/css/main.3066f658.chunk.css.map",
-    "static/js/2.d8c35b75.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js.LICENSE.txt",
+    "static/css/main.fd1d6b44.chunk.css.map": "/CAPSTONE2021/static/css/main.fd1d6b44.chunk.css.map",
+    "static/js/2.33b990ee.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.33b990ee.chunk.js.LICENSE.txt",
     "static/media/alufix1.jpg": "/CAPSTONE2021/static/media/alufix1.deac8919.jpg",
     "static/media/alufix2.jpg": "/CAPSTONE2021/static/media/alufix2.a1ee036a.jpg",
     "static/media/alufix3.jpg": "/CAPSTONE2021/static/media/alufix3.6ef96bc7.jpg",
@@ -20,16 +20,18 @@
     "static/media/alufix6.jpg": "/CAPSTONE2021/static/media/alufix6.5a5f7aa5.jpg",
     "static/media/alufix7.jpg": "/CAPSTONE2021/static/media/alufix7.43799c4d.jpg",
     "static/media/alufix8.jpg": "/CAPSTONE2021/static/media/alufix8.12aa260f.jpg",
+    "static/media/calculator-office.jpg": "/CAPSTONE2021/static/media/calculator-office.3ef0723b.jpg",
     "static/media/argon-design-system-react.scss?v1.1.0": "/CAPSTONE2021/static/media/main100.0dbc40f5.jpg",
     "static/media/font-awesome.min.css": "/CAPSTONE2021/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/gears.jpg": "/CAPSTONE2021/static/media/gears.ba79ba5c.jpg",
     "static/media/img3.PNG": "/CAPSTONE2021/static/media/img3.fd5a7359.PNG",
     "static/media/nucleo.css": "/CAPSTONE2021/static/media/nucleo-icons.f82ec6ba.ttf",
     "static/media/white.png": "/CAPSTONE2021/static/media/white.d71fae57.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7b03807c.js",
-    "static/js/2.d8c35b75.chunk.js",
-    "static/css/main.3066f658.chunk.css",
-    "static/js/main.a8376394.chunk.js"
+    "static/js/2.33b990ee.chunk.js",
+    "static/css/main.fd1d6b44.chunk.css",
+    "static/js/main.707dc217.chunk.js"
   ]
 }

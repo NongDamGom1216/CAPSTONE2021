@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cd5fef0d072b47ebb5bf5c117012a0b",
+    "revision": "ae8a2130531fb6fabadbb93ed41aa692",
     "url": "/CAPSTONE2021/index.html"
   },
   {
-    "revision": "58ec9612f4124e1ca60f",
-    "url": "/CAPSTONE2021/static/css/main.3066f658.chunk.css"
+    "revision": "fc80012193a923cb9ac0",
+    "url": "/CAPSTONE2021/static/css/main.fd1d6b44.chunk.css"
   },
   {
-    "revision": "a7644f1e7f0133da92bb",
-    "url": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js"
+    "revision": "e03822cdc59ba9f38535",
+    "url": "/CAPSTONE2021/static/js/2.33b990ee.chunk.js"
   },
   {
     "revision": "02b5ba1031b49737f52ee18f47faa38b",
-    "url": "/CAPSTONE2021/static/js/2.d8c35b75.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/2.33b990ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58ec9612f4124e1ca60f",
-    "url": "/CAPSTONE2021/static/js/main.a8376394.chunk.js"
+    "revision": "fc80012193a923cb9ac0",
+    "url": "/CAPSTONE2021/static/js/main.707dc217.chunk.js"
   },
   {
     "revision": "5422e25e33cce68a0c63",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/alufix8.12aa260f.jpg"
   },
   {
+    "revision": "3ef0723bda2b62fe2c7ef8bca3556036",
+    "url": "/CAPSTONE2021/static/media/calculator-office.3ef0723b.jpg"
+  },
+  {
     "revision": "a17a72ec7eed5c85d2e633e0dfd81dc3",
     "url": "/CAPSTONE2021/static/media/cool-background.a17a72ec.png"
   },
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/CAPSTONE2021/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "ba79ba5c413023f1c06d20ec18a4da91",
+    "url": "/CAPSTONE2021/static/media/gears.ba79ba5c.jpg"
   },
   {
     "revision": "fd5a7359c7e16f55a5f98563d4bcbaba",
