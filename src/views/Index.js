@@ -30,14 +30,11 @@ class Index extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <Hero />
-          <Container>
+          <section className='ml-9 mr-9'>
               <Tabs />
-             
-          </Container>
+          </section>
           <Carousel />
-
         </main>
-        
         <SimpleFooter />
       </>
     );

@@ -1,23 +1,6 @@
-
 import React from "react";
-import { Link } from "react-router-dom";
-// nodejs library that concatenates classes
 
-
-// reactstrap components
-import {
-  Button,
-  Card,
-  CardBody,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
-  Row,
-  Col,
-  Container
-} from "reactstrap";
+import "../../assets/css/custom.css"
 
 class TabsSection extends React.Component {
   state = {
@@ -33,97 +16,50 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
-          <h1 className="text-default mt-lg-6 mb-4 font-weight-bold">
-          <span>About us</span>
-          </h1>
-        <Container>
-        <Row className="justify-content-center">
-          <Col lg="6">
-           
-            <div className="nav-wrapper">
-              <Nav
-                className="flex-column flex-md-row"
-                id="tabs-icons-text"
-                pills
-                role="tablist"
-              >
-                <NavItem>
-                  
-                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/manual-page" tag={Link}>
-            
-                <h3 className="text-primary font-weight-bold mb-2"> 
-                <span className="btn-inner--icon mr-1 nav-link-inner--text">
-                      <i className="ni ni-single-copy-04" />
-                </span>&nbsp;Rental Manual</h3>
-                </Button>
-                
-                </NavItem>
-
-              </Nav>
+        <h1 className="text-default mt-4 font-weight-bold" style={{ fontSize: '50px' }}>
+          About us
+        </h1>
+        <a href='/manual-page'>
+          <figure className='mt-4'>
+            <img src={require("assets/img/theme/gears.jpg")} />
+            <figcaption style={{ top: '33%', left: '6%', }}>
+              <h1 className="text-white font-weight-bold" style={{ fontSize: '55px' }}>
+                Rental Manual
+                </h1>
+            </figcaption>
+            <div class="overlay">
+              <div class="description" style={{ top: '35%', left: '6%', }}>
+                <h3 className="text-white font-weight-bold">
+                  국내 최초 검사구 렌탈 서비스를 제공합니다
+                    </h3>
+                <h3 className="text-white font-weight-bold">
+                  큐브랩 만의 차별화된 혜택을 경험해보세요
+                    </h3>
+              </div>
             </div>
-            <Card className="shadow">
-              <CardBody>
-                <TabContent activeTab={"iconTabs" + this.state.iconTabs}>
-                  <TabPane tabId="iconTabs1">
-                    <p className="display-3 lead text-default font-weight-bold">
-                    <i className="ni ni-check-bold" />&nbsp;
-                    국내 최초 검사구 렌탈 서비스를 제공합니다.
-                    </p>
-                    <p className="display-3 lead text-default font-weight-bold">
-                    <i className="ni ni-check-bold" />&nbsp;
-                    큐브랩 만의 차별화된 혜택을 경험해보세요.
-                    </p>
-                  </TabPane>
-                 
-                </TabContent>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col className="mt-5 mt-lg-0" lg="6">
-            {/* Menu */}
-            
-            <div className="nav-wrapper">
-            <Nav
-                className="flex-column flex-md-row"
-                id="tabs-icons-text"
-                pills
-                role="tablist"
-              >
-                <NavItem>
-                <Button className="btn-1 btn-neutral ml-1 nav-link" size="lg" color="default" type="button" to = "/simul-page" tag={Link}>
-                <h3 className="text-primary font-weight-bold mb-2"><span className="btn-inner--icon mr-1">
-                      <i className="ni ni-single-copy-04" />
-                </span>&nbsp;Simulation page</h3>
-                </Button>
-                </NavItem>
-
-              </Nav>
+          </figure>
+        </a>
+        <a href='/simul-page'>
+          <figure className='mt-5'>
+            <img src={require("assets/img/theme/calculator-office.jpg")} />
+            <figcaption style={{ top: '33%', left: '6%', }}>
+              <h1 className="text-white font-weight-bold" style={{ fontSize: '55px' }}>
+                Rental Simulation
+                </h1>
+            </figcaption>
+            <div class="overlay">
+              <div class="description" style={{ top: '35%', left: '6%', }}>
+                <h3 className="text-white font-weight-bold">
+                  필요한 제품의 렌탈료를 지금 확인하세요
+                    </h3>
+                <h3 className="text-white font-weight-bold">
+                  부담되지 않는 가격으로 제공합니다
+                    </h3>
+              </div>
             </div>
-            <Card className="shadow">
-              <CardBody>
-                <TabContent activeTab={"plainTabs" + this.state.plainTabs}>
-                  <TabPane tabId="plainTabs1">
-                    <p className="display-3 lead text-default font-weight-bold">
-                    <i className="ni ni-check-bold" />&nbsp;
-                    필요한 제품의 렌탈료를 지금 확인하세요.
-                    </p>
-                    <p className="display-3 lead text-default font-weight-bold">
-                    <i className="ni ni-check-bold" />&nbsp;
-                    부담되지 않는 가격으로 제공합니다.
-                    </p>
-                  </TabPane>
-                  
-                </TabContent>
-              </CardBody>
-            </Card>
-          </Col>
-        </Row>
-        </Container>
-        
-       
+          </figure>
+        </a>
       </>
-     
-
     );
   }
 }

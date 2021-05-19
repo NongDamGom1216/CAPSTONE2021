@@ -1,9 +1,5 @@
 import React from "react";
 
-import classnames from "classnames";
-// import { UncontrolledAlert } from "reactstrap";
-
-// reactstrap components
 import {
   Card,
   CardImg,
@@ -12,11 +8,9 @@ import {
   Col
 } from "reactstrap";
 
-
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-
 
 class Manual extends React.Component {
   state = {};
@@ -32,7 +26,7 @@ class Manual extends React.Component {
         <main ref="main">
           <div className="position-relative">
             {/* shape Hero */}
-            <section className="section section-lg section-shaped pb-200">
+            <section className="section section-lg section-shaped pb-100">
               <div className="shape shape-style-1 shape-primary">
               
               </div>
@@ -57,9 +51,9 @@ class Manual extends React.Component {
             {/* 1st Hero Variation */}
           </div>
           <section className="section bg-secondary">
-            <Container >
+            <Container>
               <Row className="row-grid align-items-centor">
-                <Col md="6">
+                <Col className='pr-2' style={{ wordBreak: 'keep-all' }} md='6'>
                   <Card className="bg-default shadow border-0">
                     <CardImg
                       alt="..."
@@ -83,49 +77,49 @@ class Manual extends React.Component {
                           points="0,42 583,95 683,0 0,95"
                         />
                       </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                        렌탈 서비스란?
-                      </h4>
+                      <h2 className="display-3 font-weight-bold text-white">
+                      <i class="fa fa-question-circle"></i>
+                      &nbsp;렌탈 서비스란?
+                      </h2>
                       <p className="lead text-italic text-white">
-                        <i className="ni ni-bold-right"/> &nbsp;
-                        사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스
+                        <i className="ni ni-bold-right"/>
+                        &nbsp;사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스
                       </p>
                       <p className="lead text-italic text-white">
-                        <i className="ni ni-bold-right"/> &nbsp;
-                        리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음
+                        <i className="ni ni-bold-right"/>
+                        &nbsp;리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음
                       </p>
                       <p className="lead text-italic text-white">
-                        <i className="ni ni-bold-right"/> &nbsp;
-                        사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도
+                        <i className="ni ni-bold-right"/>
+                        &nbsp;사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도
                       </p>
                     </blockquote>
                   </Card>
                 </Col>
-                <Col md="5">
-                  <div className="pl-md-3">
-                    <div className="icon icon-lg icon-shape icon-shape-bg-gradient-blue shadow rounded-circle mb-5">
-                      <i className="ni ni-like-2" />
-                    </div>
-                    <h1 className="font-weight-bold">렌탈 서비스의 장점</h1>
+                <Col className=' align-self-center pl-4 pr-4' style={{ wordBreak: 'keep-all' }} md='6' >
+                <div className="pl-4">
+                    <h2 className=" display-3 font-weight-bold">
+                    <i className="ni ni-like-2" />&nbsp;렌탈 서비스의 장점
+                    </h2>
                     <p className="lead text">
-                      <mark>저렴한 초기금액</mark>과 월 분할 납입 방식으로 WITTE 사의 ALUFIX/MEGALU 검사구 제품을 이용 가능
+                      <mark>저렴한 초기금액</mark>과 월 분할 납입 방식으로 WITTE사의 ALUFIX/MEGALU 검사구 제품을 <br/>이용 가능
                     </p>
                     <p className="lead text">
-                      부품들을 조립해서 제작하는 자사 제품의<br/> 특징상 Retooling 서비스를 통해, 생산 제품이 바뀌어도 검사구를 <mark>새로 구매할 일 없이 </mark>재조립 가능
+                      부품들을 조립해서 제작하는 자사 제품의 특징상 Retooling 서비스를 통해, 생산 제품이 바뀌어도 검사구를 <mark>새로 구매할 일 없이 </mark>재조립 가능
                     </p>
                     <p className="lead text">
-                      <mark>1년마다 첫 Retooling 금액 30% 할인 제공</mark>(48개월 최대 4회 할인 적용 가능)
+                      <mark>1년마다 첫 Retooling 금액 30% 할인 제공</mark><br/>(48개월 최대 4회 할인 적용 가능)
                     </p>
                     <p className="lead text">
                       렌탈 기간 종료시 제품은 무상 양도되지만 Retooling 서비스는 이후에도 신청 가능
                     </p>
-                  </div>
+                      </div>
                 </Col>
               </Row>
             </Container>
           </section>
         
-          <section className="section section-lg mt-3 ml-5 mr-5 pt-5 ">
+          <section className="section section-lg bg-secondary pt-4">
             <Container>
               <Card className="bg-gradient-neutral shadow-lg">
                 <div className="p-5">
@@ -169,7 +163,7 @@ class Manual extends React.Component {
             </Container>  
           </section>
         
-          <section className="section section-lg  bg-gradient-default ">
+          <section className="section section-lg bg-gradient-default p-6">
             <Container className="pt-1 pb-1">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
@@ -181,11 +175,11 @@ class Manual extends React.Component {
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-button-play text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Step 1</h5>
-                  <p className="lead text-white mt-3">
+                  <h4 className="text-white font-weight-bold mt-3">Step 1</h4>
+                  <h4 className="text-white font-weight-bold mt-1">
                     매뉴얼 확인 및 시뮬레이션
-                  </p>
-                  <p className="text-white mt-3">
+                  </h4>
+                  <p className="text-white mt-4">
                     렌탈 매뉴얼을 확인 후
                     시뮬레이션 페이지를 통해
                     대략적인 비용 계산
@@ -195,11 +189,11 @@ class Manual extends React.Component {
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-credit-card text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Step 2</h5>
-                  <p className="lead text-white mt-3">
+                  <h4 className="text-white font-weight-bold mt-3">Step 2</h4>
+                  <h4 className="text-white font-weight-bold mt-1">
                     자사 상담 및 계약
-                  </p>
-                  <p className="text-white mt-3">
+                  </h4>
+                  <p className="text-white mt-4">
                     대략적인 비용 확인 후
                     자사와 상담을 통해
                     세부적인 계약 내용 확정
@@ -213,11 +207,11 @@ class Manual extends React.Component {
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-delivery-fast text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Step 3</h5>
-                  <p className="lead text-white mt-3">
+                  <h4 className="text-white font-weight-bold mt-3">Step 3</h4>
+                  <h4 className="text-white font-weight-bold mt-1">
                     제품 설계 & 조립 제공
-                  </p>
-                  <p className="text-white mt-3">
+                  </h4>
+                  <p className="text-white mt-4">
                     계약 이후
                     각자의 규격에 따른
                     맞춤 검사구 설계&조립 제공

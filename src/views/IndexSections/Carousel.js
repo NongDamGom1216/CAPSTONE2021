@@ -66,13 +66,13 @@ class Carousel extends React.Component {
           <Container className="py-md">
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
-                <h1 className="h10 text-secondary font-weight-bold">
+                <h1 className="text-secondary font-weight-bold" style={{ fontSize: '50px' }}>
                   제품 소개
                 </h1>
                 
-                <h4 className="h10 text-secondary font-weight-light">
+                <h3 className="text-secondary font-weight-light">
                 Creative value for customers!
-                </h4>
+                </h3>
                 
                 <Button
                   className="btn-black mt-4"
@@ -83,7 +83,7 @@ class Carousel extends React.Component {
                   상세 페이지 이동
                 </Button>
               </Col>
-              <Col className="mb-lg-auto" lg="6">
+              <Col className="mb-lg-auto" lg="4">
                 <div className="rounded shadow-lg overflow-hidden transform-perspective-right">
                   <UncontrolledCarousel items={items} />
                 </div>

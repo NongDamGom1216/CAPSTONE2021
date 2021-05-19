@@ -34,7 +34,7 @@ class SimpleFooter extends React.Component {
                 Copyright. 2016. alufix. All Rights Reseved
                 </p>
               </Col>
-              
+
             </Row>
             <hr />
             <Row className=" align-items-center justify-content-md-between">

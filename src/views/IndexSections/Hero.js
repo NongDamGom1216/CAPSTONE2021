@@ -1,7 +1,6 @@
 import React from "react";
 
-// reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 class Hero extends React.Component {
   render() {
@@ -19,11 +18,11 @@ class Hero extends React.Component {
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="10">
 
-                  <h1 className="text-white display-2">
+                  <h1 className="text-white display-1">
                         CUBELAB
                   </h1>
 
-                  <h1 className = "text-white display-4"> 
+                  <h1 className = "text-white display-3"> 
                     Rental Manual & Simulation
                  </h1>
                       

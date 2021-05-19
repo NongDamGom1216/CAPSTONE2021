@@ -1,9 +1,7 @@
 import React from "react";
 
-// reactstrap components
-import { Button, Card, Container, Row, Colm, CardImg, Col, Badge } from "reactstrap";
+import { Card, Container, Row, Col } from "reactstrap";
 
-// core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
@@ -76,7 +74,7 @@ class Simulation extends React.Component {
         <main className="simul-page" ref="main">
           <div className="position-relative">
             {/* shape Hero */}
-            <section className="section-lg section-shaped pb-200">
+            <section className="section-lg section-shaped pb-100">
               <div className="shape shape-style-1 shape-primary">
               </div>
               <Container className="py-lg-md d-flex">
@@ -92,7 +90,7 @@ class Simulation extends React.Component {
             </section>
           </div>
 
-          <section className='bg-secondary pt-6 pb-6'>
+          <section className='bg-secondary pt-6 pb-7'>
             <Card className="bg-gradient-default shadow-lg ml-9 mr-9 p-3">
               <Col>
                 <h5 className="text-white mt-2 font-weight-bold">
@@ -101,20 +99,20 @@ class Simulation extends React.Component {
               </Col>
               <Col>
                 <p className="text-white mt-2 ">
-                  <i className="ni ni-check-bold" />
-                  &nbsp;렌탈비는 <span className="text-red font-weight-bold">보증금의 차등에 따라 연 5%~10%의 수수료</span>가 적용됩니다
+                  <i className="ni ni-check-bold" />&nbsp;
+                  렌탈비는 <span className="text-red font-weight-bold">보증금의 차등에 따라 연 5%~10%의 수수료</span>가 적용됩니다
                   </p>
                 <p className="text-white mt-1">
-                  <i className="ni ni-check-bold" />
-                  &nbsp;기본 리툴링비는 <span className="text-red font-weight-bold">제품 가격의 약 30%</span>로 책정됩니다
+                  <i className="ni ni-check-bold" />&nbsp;
+                  기본 리툴링비는 <span className="text-red font-weight-bold">제품 가격의 약 30%</span>로 책정됩니다
                   </p>
                 <p className="text-white mt-1">
-                  <i className="ni ni-check-bold" />
-                  &nbsp;계산 결과의 리툴링비는 할인이 적용된 <span className="text-red font-weight-bold">매년 첫번째</span>의 리툴링입니다
+                  <i className="ni ni-check-bold" />&nbsp;
+                  계산 결과의 리툴링비는 할인이 적용된 <span className="text-red font-weight-bold">매년 첫번째</span>의 리툴링입니다
                   </p>
                 <p className="text-white mt-1">
-                  <i className="ni ni-check-bold" />
-                  &nbsp;시뮬레이터는 참고용이며 실제 금액과는 차이가 있을 수 있으므로 <span className="text-red font-weight-bold">자세한 상담은 당사에 문의 바랍니다</span>
+                  <i className="ni ni-check-bold" />&nbsp;
+                  시뮬레이터는 참고용이며 실제 금액과는 차이가 있을 수 있으므로 <span className="text-red font-weight-bold">자세한 상담은 당사에 문의 바랍니다</span>
                 </p>
               </Col>
             </Card>
@@ -238,9 +236,7 @@ class Simulation extends React.Component {
                 <span class="btn-inner--text">Calculation</span>
               </button>
             </Card>
-
           </section>
-
           <section className="section-sm bg-gradient-default align-items-center">
             <Row className="align-items-center">
               <Col>

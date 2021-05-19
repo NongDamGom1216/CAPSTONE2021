@@ -1,0 +1,38 @@
+  figure {
+    position: relative;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  } 
+
+  figure figcaption {
+    position: absolute;
+    text-align: center;
+  } 
+  
+  
+  figure .overlay {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: rgba(0, 0, 0, 0.6);
+        -webkit-transition: .2s ease;
+        transition: .2s ease;
+  }
+  figure .overlay .description {    
+    position: absolute;
+  }
+  
+  figure:hover figcaption {
+    display: none;
+  }
+
+  figure:hover .overlay {
+    display: block;
+    height: 100%;
+  }
