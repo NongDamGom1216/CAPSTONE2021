@@ -20,6 +20,7 @@ class TabsSection extends React.Component {
           About us
         </h1>
         <a href='/manual-page'>
+        <span className="nav-link-inner--text ml-1 display-3 lead">
           <figure className='mt-4'>
             <img src={require("assets/img/theme/gears.jpg")} />
             <figcaption style={{ top: '33%', left: '6%', }}>
@@ -38,8 +39,10 @@ class TabsSection extends React.Component {
               </div>
             </div>
           </figure>
+          </span>
         </a>
         <a href='/simul-page'>
+        <span className="nav-link-inner--text ml-1 display-3 lead">
           <figure className='mt-5'>
             <img src={require("assets/img/theme/calculator-office.jpg")} />
             <figcaption style={{ top: '33%', left: '6%', }}>
@@ -58,6 +61,7 @@ class TabsSection extends React.Component {
               </div>
             </div>
           </figure>
+          </span>
         </a>
       </>
     );
