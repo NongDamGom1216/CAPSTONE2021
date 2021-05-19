@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../../assets/css/custom.css"
 
@@ -19,8 +20,8 @@ class TabsSection extends React.Component {
         <h1 className="text-default mt-4 font-weight-bold" style={{ fontSize: '50px' }}>
           About us
         </h1>
-        <a href='/manual-page'>
-        <span className="nav-link-inner--text ml-1 display-3 lead">
+        
+        <Link className="nav-link-inner--text ml-1 display-3 lead" to = '/manual-page' tag={Link}>
           <figure className='mt-4'>
             <img src={require("assets/img/theme/gears.jpg")} />
             <figcaption style={{ top: '33%', left: '6%', }}>
@@ -39,10 +40,10 @@ class TabsSection extends React.Component {
               </div>
             </div>
           </figure>
-          </span>
-        </a>
-        <a href='/simul-page'>
-        <span className="nav-link-inner--text ml-1 display-3 lead">
+          </Link>
+        
+        
+        <Link className="nav-link-inner--text ml-1 display-3 lead" to = '/simul-page' tag={Link}>
           <figure className='mt-5'>
             <img src={require("assets/img/theme/calculator-office.jpg")} />
             <figcaption style={{ top: '33%', left: '6%', }}>
@@ -61,8 +62,8 @@ class TabsSection extends React.Component {
               </div>
             </div>
           </figure>
-          </span>
-        </a>
+          </Link>
+        
       </>
     );
   }
