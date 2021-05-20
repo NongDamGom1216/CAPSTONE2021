@@ -53,8 +53,8 @@ class Manual extends React.Component {
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-centor">
-                <Col className='pr-2' style={{ wordBreak: 'keep-all' }} md='6'>
-                  <Card className="bg-default shadow border-0">
+                <Col style={{ wordBreak: 'keep-all' }} md='6'>
+                  <Card className="bg-default shadow-lg border-0">
                     <CardImg
                       alt="..."
                       src={require("assets/img/theme/img3.PNG")}
@@ -83,37 +83,64 @@ class Manual extends React.Component {
                       </h2>
                       <p className="lead text-italic text-white">
                         <i className="ni ni-bold-right"/>
-                        &nbsp;사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스
+                        &nbsp;사용자측에서 필요한 검사구를 저렴한 초기 금액으로 설치부터 이용 가능하게 하는 서비스<br/><br/>
                       </p>
                       <p className="lead text-italic text-white">
                         <i className="ni ni-bold-right"/>
-                        &nbsp;리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음
+                        &nbsp;리스는 금융지원의 성격이 강하고 렌탈은 임대의 성격이 강하다고 할수 있음<br/><br/>
                       </p>
                       <p className="lead text-italic text-white">
                         <i className="ni ni-bold-right"/>
-                        &nbsp;사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도
+                        &nbsp;사용기간 종료, 또는 상환 완료시 렌탈물건은 사용자측에 무상 양도<br/><br/><br/>
                       </p>
                     </blockquote>
                   </Card>
                 </Col>
-                <Col className=' align-self-center pl-4 pr-4' style={{ wordBreak: 'keep-all' }} md='6' >
-                <div className="pl-4">
+                <Col style={{ wordBreak: 'keep-all' }} md='6'>
+                  <Card className="bg-white shadow-lg border-0 pb-2">
+                    <CardImg
+                      alt="..."
+                      src={require("assets/img/theme/alufix2_.jpg")}
+                      top
+                    />
+                    <blockquote className="card-blockquote">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="svg-bg"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 583 95"
+                      >
+                        <polygon
+                          className="fill-white"
+                          points="0,52 583,95 0,95"
+                        />
+                        <polygon
+                          className="fill-white"
+                          opacity=".2"
+                          points="0,42 583,95 683,0 0,95"
+                        />
+                      </svg>
                     <h2 className=" display-3 font-weight-bold">
                     <i className="ni ni-like-2" />&nbsp;렌탈 서비스의 장점
                     </h2>
                     <p className="lead text">
-                      <mark>저렴한 초기금액</mark>과 월 분할 납입 방식으로 WITTE사의 ALUFIX/MEGALU 검사구 제품을 <br/>이용 가능
+                    <i className="ni ni-bold-right"/>
+                      <mark>저렴한 초기금액</mark>과 월 분할 납입 방식으로 WITTE사의 검사구 제품을 이용 가능
                     </p>
                     <p className="lead text">
-                      부품들을 조립해서 제작하는 자사 제품의 특징상 Retooling 서비스를 통해, 생산 제품이 바뀌어도 검사구를 <mark>새로 구매할 일 없이 </mark>재조립 가능
+                    <i className="ni ni-bold-right"/>
+                      부품들을 조립, 제작하는 자사 제품의 특징상 Retooling 서비스를 통해 생산 제품이 바뀌어도 검사구를 <mark>새로 구매할 일 없이 </mark>재조립 가능
                     </p>
                     <p className="lead text">
-                      <mark>1년마다 첫 Retooling 금액 30% 할인 제공</mark><br/>(48개월 최대 4회 할인 적용 가능)
+                    <i className="ni ni-bold-right"/>
+                      <mark>1년마다 첫 Retooling 금액 30% 할인 제공</mark><br/>(48개월 렌탈시 최대 4회 할인 적용 가능)
                     </p>
                     <p className="lead text">
+                    <i className="ni ni-bold-right"/>
                       렌탈 기간 종료시 제품은 무상 양도되지만 Retooling 서비스는 이후에도 신청 가능
                     </p>
-                      </div>
+                    </blockquote>
+                  </Card>
                 </Col>
               </Row>
             </Container>
@@ -164,7 +191,7 @@ class Manual extends React.Component {
           </section>
         
           <section className="section section-lg bg-gradient-default p-6">
-            <Container className="pt-1 pb-1">
+            <Container className="pt-1 pb-1" style={{ wordBreak: 'keep-all' }}>
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">신청 방법</h2>

@@ -116,10 +116,10 @@ class Simulation extends React.Component {
                 </p>
               </Col>
             </Card>
-            <Card className="bg-white shadow-sm mt-7 ml-9 mr-9 p-4" style={{ borderColor: '#D8D8D8' }}>
+            <Card className="bg-white shadow-sm mt-7 ml-9 mr-9 p-4">
               <Row className='mb-3 align-items-center'>
                 <Col md='2'>
-                  <strong>제품가격(원)</strong>
+                  <strong>제품가격</strong>
                 </Col>
                 <Col>
                   <input type="number" class="form-control" name="price" placeholder="금액(원)" value={this.price} onChange={this.onChange} />

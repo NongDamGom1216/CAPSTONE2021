@@ -66,13 +66,13 @@ class Carousel extends React.Component {
           <Container className="py-md">
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
-                <h1 className="text-secondary font-weight-bold" style={{ fontSize: '50px' }}>
+                <h2 className="text-secondary font-weight-bold">
                   제품 소개
-                </h1>
+                </h2>
                 
-                <h3 className="text-secondary font-weight-light">
+                <h4 className="text-secondary font-weight-light">
                 Creative value for customers!
-                </h3>
+                </h4>
                 
                 <Button
                   className="btn-black mt-4"

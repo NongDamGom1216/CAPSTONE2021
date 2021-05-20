@@ -16,7 +16,7 @@ class TabsSection extends React.Component {
   render() {
     return (
       <>
-        <h1 className="text-default mt-4 font-weight-bold" style={{ fontSize: '50px' }}>
+        <h1 className="text-default mt-4 font-weight-bold">
           About us
         </h1>
         <a href='/manual-page'>
