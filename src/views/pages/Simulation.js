@@ -91,7 +91,8 @@ class Simulation extends React.Component {
           </div>
 
           <section className='bg-secondary pt-6 pb-7'>
-            <Card className="bg-gradient-default shadow-lg ml-9 mr-9 p-3">
+          <Container>
+            <Card className="bg-gradient-default mr-lg-7 ml-lg-7 shadow-lg p-3">
               <Col>
                 <h5 className="text-white mt-2 font-weight-bold">
                 <i class="fa fa-exclamation-circle"></i>
@@ -116,7 +117,7 @@ class Simulation extends React.Component {
                 </p>
               </Col>
             </Card>
-            <Card className="bg-white shadow-sm mt-7 ml-9 mr-9 p-4">
+            <Card className="bg-white mr-lg-7 ml-lg-7 mt-7 p-4">
               <Row className='mb-3 align-items-center'>
                 <Col md='2'>
                   <strong>제품가격</strong>
@@ -236,14 +237,16 @@ class Simulation extends React.Component {
                 <span class="btn-inner--text">Calculation</span>
               </button>
             </Card>
+            </Container>
           </section>
           <section className="section-sm bg-gradient-default align-items-center">
+            <Container>
             <Row className="align-items-center">
               <Col>
-                <h1 className='text-white ml-9'>렌탈비</h1>
+                <h1 className='text-white ml-lg-7'>렌탈비</h1>
               </Col>
               <Col>
-                <h1 className='text-right text-white mr-9'>
+                <h1 className='text-right text-white mr-lg-7'>
                   <span style={{ fontSize: "0.4em" }}>월 </span>
                   {Math.floor(this.state.fee).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                   <span style={{ fontSize: "0.4em" }}>원</span>
@@ -252,10 +255,10 @@ class Simulation extends React.Component {
             </Row>
             <Row className="align-items-center">
               <Col>
-                <h3 className='text-white ml-9'>보증금</h3>
+                <h3 className='text-white ml-lg-7'>보증금</h3>
               </Col>
               <Col>
-                <h3 className='text-right text-white mr-9'>
+                <h3 className='text-right text-white mr-lg-7'>
                   {Math.floor(this.state.deposit).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                   <span style={{ fontSize: "0.6em" }}>원 </span>
                 </h3>
@@ -263,10 +266,10 @@ class Simulation extends React.Component {
             </Row>
             <Row className="align-items-center">
               <Col>
-                <h3 className='text-white ml-9'>리툴링비</h3>
+                <h3 className='text-white ml-lg-7'>리툴링비</h3>
               </Col>
               <Col className="align-text-center">
-                <h3 className='text-right text-white mr-9'>
+                <h3 className='text-right text-white mr-lg-7'>
                   <span className='text-right text-white mr-2' style={{ fontSize: "0.6em", textDecoration: 'line-through' }}>
                     {Math.floor(this.state.retooling_b).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}원
                     </span>
@@ -276,8 +279,8 @@ class Simulation extends React.Component {
                 </h3>
               </Col>
             </Row>
+            </Container>
           </section>
-
         </main>
         <SimpleFooter />
       </>

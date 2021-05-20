@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Container } from "reactstrap";
 
 import "../../assets/css/custom.css"
 
@@ -16,7 +17,7 @@ class TabsSection extends React.Component {
   };
   render() {
     return (
-      <>
+      <Container>
         <h1 className="text-default mt-4 font-weight-bold">
           About us
         </h1>
@@ -43,7 +44,7 @@ class TabsSection extends React.Component {
           </Link>
         
         
-        <Link className="nav-link-inner--text ml-1 display-3 lead" to = '/simul-page' tag={Link}>
+        <Link className="nav-link-inner--text ml-lg-1 display-3 lead" to = '/simul-page' tag={Link}>
           <figure className='mt-5'>
             <img src={require("assets/img/theme/calculator-office.jpg")} />
             <figcaption style={{ top: '33%', left: '6%', }}>
@@ -62,9 +63,8 @@ class TabsSection extends React.Component {
               </div>
             </div>
           </figure>
-          </Link>
-        
-      </>
+        </Link>
+      </Container>
     );
   }
 }
