@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/CAPSTONE2021/static/css/main.fd1d6b44.chunk.css",
-    "main.js": "/CAPSTONE2021/static/js/main.6a0d5b11.chunk.js",
-    "main.js.map": "/CAPSTONE2021/static/js/main.6a0d5b11.chunk.js.map",
+    "main.css": "/CAPSTONE2021/static/css/main.75644f5a.chunk.css",
+    "main.js": "/CAPSTONE2021/static/js/main.82ef4f53.chunk.js",
+    "main.js.map": "/CAPSTONE2021/static/js/main.82ef4f53.chunk.js.map",
     "runtime-main.js": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js",
     "runtime-main.js.map": "/CAPSTONE2021/static/js/runtime-main.7b03807c.js.map",
-    "static/js/2.e58d948d.chunk.js": "/CAPSTONE2021/static/js/2.e58d948d.chunk.js",
-    "static/js/2.e58d948d.chunk.js.map": "/CAPSTONE2021/static/js/2.e58d948d.chunk.js.map",
+    "static/js/2.b0d18697.chunk.js": "/CAPSTONE2021/static/js/2.b0d18697.chunk.js",
+    "static/js/2.b0d18697.chunk.js.map": "/CAPSTONE2021/static/js/2.b0d18697.chunk.js.map",
     "index.html": "/CAPSTONE2021/index.html",
-    "precache-manifest.39893fda561e84a9f302e1f1a42e3b81.js": "/CAPSTONE2021/precache-manifest.39893fda561e84a9f302e1f1a42e3b81.js",
+    "precache-manifest.334809b758f09e6ca636cf13b401b3a1.js": "/CAPSTONE2021/precache-manifest.334809b758f09e6ca636cf13b401b3a1.js",
     "service-worker.js": "/CAPSTONE2021/service-worker.js",
-    "static/css/main.fd1d6b44.chunk.css.map": "/CAPSTONE2021/static/css/main.fd1d6b44.chunk.css.map",
-    "static/js/2.e58d948d.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.e58d948d.chunk.js.LICENSE.txt",
+    "static/css/main.75644f5a.chunk.css.map": "/CAPSTONE2021/static/css/main.75644f5a.chunk.css.map",
+    "static/js/2.b0d18697.chunk.js.LICENSE.txt": "/CAPSTONE2021/static/js/2.b0d18697.chunk.js.LICENSE.txt",
     "static/media/alufix1.jpg": "/CAPSTONE2021/static/media/alufix1.deac8919.jpg",
     "static/media/alufix2.jpg": "/CAPSTONE2021/static/media/alufix2.a1ee036a.jpg",
+    "static/media/alufix2_.jpg": "/CAPSTONE2021/static/media/alufix2_.a1d28ec8.jpg",
     "static/media/alufix3.jpg": "/CAPSTONE2021/static/media/alufix3.6ef96bc7.jpg",
     "static/media/alufix4.jpg": "/CAPSTONE2021/static/media/alufix4.532b4c68.jpg",
     "static/media/alufix5.jpg": "/CAPSTONE2021/static/media/alufix5.7ffef3f3.jpg",
@@ -30,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7b03807c.js",
-    "static/js/2.e58d948d.chunk.js",
-    "static/css/main.fd1d6b44.chunk.css",
-    "static/js/main.6a0d5b11.chunk.js"
+    "static/js/2.b0d18697.chunk.js",
+    "static/css/main.75644f5a.chunk.css",
+    "static/js/main.82ef4f53.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10c3ad990bd0eb5482a2bfbb9a730e1c",
+    "revision": "a79105910d380adfadddb72ea23be5d2",
     "url": "/CAPSTONE2021/index.html"
   },
   {
-    "revision": "b6ccc1b2382eec7d8cc2",
-    "url": "/CAPSTONE2021/static/css/main.fd1d6b44.chunk.css"
+    "revision": "8313167d8280bf91e83e",
+    "url": "/CAPSTONE2021/static/css/main.75644f5a.chunk.css"
   },
   {
-    "revision": "97867d4e044e972b3bce",
-    "url": "/CAPSTONE2021/static/js/2.e58d948d.chunk.js"
+    "revision": "b5aad9c4890efdf94b73",
+    "url": "/CAPSTONE2021/static/js/2.b0d18697.chunk.js"
   },
   {
     "revision": "02b5ba1031b49737f52ee18f47faa38b",
-    "url": "/CAPSTONE2021/static/js/2.e58d948d.chunk.js.LICENSE.txt"
+    "url": "/CAPSTONE2021/static/js/2.b0d18697.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6ccc1b2382eec7d8cc2",
-    "url": "/CAPSTONE2021/static/js/main.6a0d5b11.chunk.js"
+    "revision": "8313167d8280bf91e83e",
+    "url": "/CAPSTONE2021/static/js/main.82ef4f53.chunk.js"
   },
   {
     "revision": "5422e25e33cce68a0c63",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a1ee036ab3ca433474f7c5cf680998ac",
     "url": "/CAPSTONE2021/static/media/alufix2.a1ee036a.jpg"
+  },
+  {
+    "revision": "a1d28ec87ae43d8af2c49b7bbfbb15db",
+    "url": "/CAPSTONE2021/static/media/alufix2_.a1d28ec8.jpg"
   },
   {
     "revision": "6ef96bc75dfb9e9f33a864938064eff1",
@@ -60,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CAPSTONE2021/static/media/calculator-office.3ef0723b.jpg"
   },
   {
-    "revision": "a17a72ec7eed5c85d2e633e0dfd81dc3",
-    "url": "/CAPSTONE2021/static/media/cool-background.a17a72ec.png"
+    "revision": "d7b77639c22caa012eb3ce8450a580d1",
+    "url": "/CAPSTONE2021/static/media/cool-background_1.d7b77639.png"
   },
   {
     "revision": "6e58d88146f9c4974f83afbe94064e67",
