@@ -1,2 +1,3 @@
-1.`yarn install`
-2. 'yarn start'
+'yarn start'
+
+리액트와 부트스트랩을 사용하여 만든 홈페이지 기획안입니다.
